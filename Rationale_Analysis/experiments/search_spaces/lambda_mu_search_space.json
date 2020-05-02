@@ -1,0 +1,15 @@
+{
+    "LAMBDA" : {
+        "type" : "hp.loguniform",
+        "options" : {
+            "low" : -2,
+            "high" : 0
+        }
+    },
+    "MU" : {
+        "type" : "hp.choice",
+        "options" : {
+            "options" : [0.0, 0.5, 1.0, 2.0]
+        }
+    }
+}

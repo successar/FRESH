@@ -1,0 +1,42 @@
+{
+    "evinf" : {
+        "MAX_LENGTH_RATIO" : 0.1,
+        "MU" : 0.0,
+        "LAMBDA" : 0.05,
+        "BSIZE" : 4,
+        "SALIENCY" : "wrapper",
+        "LAMBDA_INIT" : 1e-5,
+        "BERT_TYPE" : "allenai/scibert_scivocab_uncased"
+    },
+    "multirc" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "MU" : 1.0,
+        "LAMBDA" : 0.17,
+        "BSIZE" : 4,
+        "SALIENCY" : "simple_gradient",
+        "LAMBDA_INIT" : 1e-5,
+        "BERT_TYPE" : "roberta-base"
+    },
+    "movies" : {
+        "MAX_LENGTH_RATIO" : 0.3,
+        "MU" : 2.0,
+        "LAMBDA" : 0.18,
+        "BSIZE": 1
+    },
+    "SST" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "MU" : 0.0,
+        "LAMBDA" : 0.31,
+        "BSIZE": 20,
+        "LAMBDA_INIT" : 1e-5,
+        "BERT_TYPE" : "bert-base-uncased"
+    },
+    "agnews" : {
+        "MAX_LENGTH_RATIO" : 0.2,
+        "MU" : 1.0,
+        "LAMBDA" : 0.35,
+        "BSIZE": 16,
+        "LAMBDA_INIT" : 1e-5,
+        "BERT_TYPE" : "bert-base-uncased"
+    }
+}

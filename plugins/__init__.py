@@ -1,0 +1,2 @@
+from plugins.rationale_extractor import RationalePredict
+from plugins.saliency_scorer import SaliencyPredict

@@ -1,0 +1,9 @@
+git+https://github.com/successar/allennlp@master#egg=allennlp
+git+https://github.com/marcotcr/lime@master#egg=lime
+torch>=1.2.0
+numpy
+pandas
+scikit-learn
+p_tqdm
+hyperopt
+lime

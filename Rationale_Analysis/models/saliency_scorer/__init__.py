@@ -1,0 +1,4 @@
+from Rationale_Analysis.models.saliency_scorer.base_saliency_scorer import SaliencyScorer
+from Rationale_Analysis.models.saliency_scorer.simple_gradient import GradientSaliency
+from Rationale_Analysis.models.saliency_scorer.wrapper import WrapperSaliency
+from Rationale_Analysis.models.saliency_scorer.integrated_gradients import IntegratedGradientSaliency

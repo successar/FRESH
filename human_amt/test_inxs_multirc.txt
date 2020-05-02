@@ -1,0 +1,100 @@
+Society_Law_and_Justice_oanc-Disaster_center-2.txt:1:1
+wikiMovieSummaries-261107.txt:9:1
+Society_Law_and_Justice_oanc-Attorney_gives_his_time-2.txt:2:2
+Society_Law_and_Justice_oanc-A_helping_hand-3.txt:13:0
+wikiMovieSummaries-2444093.txt:9:4
+History-Anthropology_oanc-HistoryItaly-1.txt:13:2
+Science-textbook_science-g4-80.txt:9:2
+Sept11-reports_oanc-chapter-6-30.txt:9:0
+Science-textbook_science-g4-142.txt:3:0
+Wiki_articles_wikiAlexander the Great-11.txt:3:1
+Wiki_articles-paragraphs-wikiAlbert Camus-9.txt:7:4
+Society_Law_and_Justice_oanc-Bias_on_the_Job-2.txt:4:1
+Science-textbook_science-g5-88.txt:1:3
+History-Anthropology_oanc-HistoryMallorca-6.txt:2:0
+Fiction_gutenberg_withoutQuotes_gutenberg-106-0.txt:0:1
+Society_Law_and_Justice_oanc-5_Legal_Groups-0.txt:4:1
+Fiction_mctest-mc160.test.12-0.txt:1:1
+Fiction-stories_mctest-mc160.train.67-0.txt:2:2
+History-Anthropology_oanc-HistoryMadrid-2.txt:2:7
+History-Anthropology_oanc-HistoryMallorca-6.txt:5:2
+Wiki_articles_wikiAlexander the Great-18.txt:10:0
+Sept11-reports_oanc-chapter-6-30.txt:1:5
+Science-textbook_science-g5-67.txt:7:4
+Science-textbook_science-g5-78.txt:6:3
+Fiction-stories_mctest-mc500.dev.43-0.txt:0:0
+Fiction-stories_mctest-mc500.dev.43-0.txt:10:2
+History-Anthropology_oanc-HistoryEdinburgh-4.txt:0:4
+Science-textbook_science-g3-9.txt:1:2
+News_CNN_cnn-3b0ff8796ddf508d1f1ef4c66ba29835ab642e7f.txt:14:3
+Wiki_articles_wikiAlexander II of Russia-11.txt:15:2
+History-Anthropology_oanc-HistoryItaly-1.txt:0:3
+Fiction_gutenberg_withoutQuotes_gutenberg-106-0.txt:9:1
+wikiMovieSummaries_5787450.txt:2:2
+Wiki_articles_wikiAlexander the Great-34.txt:2:2
+Science-textbook_science-g3-39.txt:6:1
+Wiki_articles_wikiAlexander the Great-50.txt:4:1
+Sept11-reports_oanc-chapter-13.1-29.txt:7:2
+Wiki_articles_wikiAlexander the Great-18.txt:3:0
+Fiction_gutenberg-10020.txt:7:1
+wikiMovieSummaries_3614683.txt:3:4
+Science-textbook_science-g5-78.txt:11:0
+wikiMovieSummaries-10376197.txt:9:6
+News_CNN_cnn-3b2f008a5acf3285163a3b32329d92c0ccde914d.txt:7:1
+Fiction_gutenberg-10028.txt:0:0
+Fiction_gutenberg-10028.txt:2:5
+News_CNN_cnn-3aad69ac9173d0db3e5f477b85d4a2ae8b26d019.txt:1:5
+Sept11-reports_oanc-chapter-2-4-2.txt:11:4
+Wiki_articles_wikiAlexander the Great-11.txt:6:0
+News_CNN_cnn-3b13a7fecb77be63cac1e9286b83f61b5784f387.txt:4:2
+wikiMovieSummaries-18640799.txt:8:3
+Wiki_articles_wikiAlexander II of Russia-0.txt:2:3
+Society_Law_and_Justice_oanc-A_helping_hand-3.txt:5:0
+Fiction-stories-masc-hotel-California-0.txt:0:0
+Fiction_gutenberg-10221.txt:13:3
+Sept11-reports_oanc-chapter-6-2.txt:2:5
+Society_Law_and_Justice_oanc-Attorney_gives_his_time-2.txt:1:1
+Science-textbook_science-g3-28.txt:4:2
+wikiMovieSummaries_31093623.txt:3:0
+News_CNN_cnn-3abe9f2e405be1e0b8bb42ef76ed520a6f1bf37e.txt:8:1
+Wiki_articles-paragraphs-wikiAlbert Bandura-0.txt:6:3
+News_CNN_cnn-3b3301b2f6a5c4974baf18b4cf109206829dbc29.txt:0:0
+Science-textbook_science-g4-121.txt:8:3
+Science-textbook_science-g4-5.txt:2:3
+News_CNN_cnn-3aad69ac9173d0db3e5f477b85d4a2ae8b26d019.txt:2:1
+Wiki_articles-paragraphs-wikiAlbrecht Durer-25.txt:1:3
+Sept11-reports_oanc-chapter-2-4-2.txt:8:7
+Fiction-stories_mctest-mc500.dev.49-0.txt:7:2
+Fiction_gutenberg_withoutQuotes_gutenberg-11508-0.txt:2:6
+Wiki_articles_wikiAlexander II of Russia-11.txt:5:2
+News_CNN_cnn-3b07f5102c69e3e609d73b2ccb0dc5549d4fbaf6.txt:1:2
+Wiki_articles-paragraphs-wikiAlbert Einstein-6.txt:14:2
+Science-textbook_science-g4-107.txt:0:0
+Wiki_articles_wikiAlexander the Great-50.txt:5:0
+Science-textbook_science-g5-74.txt:1:6
+Fiction_mctest-mc160.dev.12-0.txt:5:1
+News_CNN_cnn-3b4024de1da6390fe09f844b9318baa0f1756b4b.txt:1:3
+Science-textbook_science-g4-121.txt:7:2
+Wiki_articles-paragraphs-wikiAlbert Camus-12.txt:0:1
+Wiki_articles-paragraphs-wikiAlbert Bandura-0.txt:3:3
+News_CNN_cnn-3b36c94018ae586b3a550a2850e10be30f684c0a.txt:1:1
+Wiki_articles_wikiAlexander II of Russia-0.txt:3:7
+News_CNN_cnn-3b159c09888b61241afe848844510478546353d4.txt:3:2
+wikiMovieSummaries-2444093.txt:10:0
+Fiction_gutenberg_withoutQuotes_gutenberg-11508-0.txt:0:2
+wikiMovieSummaries_31093623.txt:0:5
+Science-textbook_science-g4-80.txt:5:2
+Fiction-stories-masc-A_Wasted_Day-11.txt:11:0
+Society_Law_and_Justice_oanc-Firm_to_the_Poor_Needs_Help-2.txt:5:7
+wikiMovieSummaries-18640799.txt:9:4
+Fiction_gutenberg_withoutQuotes_gutenberg-11249-0.txt:1:2
+Science-textbook_science-g4-5.txt:5:2
+Sept11-reports_oanc-chapter-3-2.txt:16:2
+Science-textbook_science-g4-138.txt:8:6
+Science-textbook_science-g3-28.txt:0:1
+wikiMovieSummaries_5787450.txt:1:1
+Fiction_gutenberg_withoutQuotes_gutenberg-10641-0.txt:1:3
+Fiction_mctest-mc160.dev.12-0.txt:3:1
+Wiki_articles-paragraphs-wikiAlbrecht Durer-17.txt:1:1
+Fiction-stories_mctest-mc160.train.64-0.txt:10:4
+Society_Law_and_Justice_oanc-grants_fail_to_come-1.txt:5:0
