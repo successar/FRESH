@@ -1,4 +1,4 @@
-Learning to Faithfully Rationalize by Contruction
+Learning to Faithfully Rationalize by Construction
 --------------------------------------------------
 
 **Coming Soon**
