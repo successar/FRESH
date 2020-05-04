@@ -1,3 +1,8 @@
+Learning to Faithfully Rationalize by Contruction
+--------------------------------------------------
+
+**Coming Soon**
+
 Suggested use is to use Anaconda and do `pip install -r requirements.txt` .
 
 1. `data` : Folder to store datasets
@@ -14,7 +19,7 @@ Suggested use is to use Anaconda and do `pip install -r requirements.txt` .
     2. `saliency_reader.py` : Read output of Saliency scorer to pass into rationale extractors.
 
 Experimental Setup
-================== 
+------------------ 
 
 1. Train any model 
 
