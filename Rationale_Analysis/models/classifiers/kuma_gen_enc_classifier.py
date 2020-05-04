@@ -94,10 +94,7 @@ class KumaraswamyGenEncClassifier(RationaleBaseModel):
                 sample_z = (sampler.mean() > 0.5).long() * mask
             else:
                 prob_z = sampler.mean()
-                try :
-                    sample_z = self._rationale_extractor.extract_rationale(prob_z, document, as_one_hot=True)
-                except :
-                    breakpoint()
+                sample_z = self._rationale_extractor.extract_rationale(prob_z, document, as_one_hot=True)
                 output_dict["rationale"] = self._rationale_extractor.extract_rationale(
                     prob_z, document, as_one_hot=False
                 )
@@ -170,7 +167,7 @@ class KumaraswamyGenEncClassifier(RationaleBaseModel):
         output_dict["predicted_rationale"] = generator_dict["predicted_rationale"]
 
         self._loss_tracks["_rat_length"](
-            util.masked_mean(generator_dict["predicted_rationale"], mask, dim=-1).mean().item()
+            util.masked_mean(generator_dict["predicted_rationale"], mask == 1, dim=-1).mean().item()
         )
 
         self._call_metrics(output_dict)

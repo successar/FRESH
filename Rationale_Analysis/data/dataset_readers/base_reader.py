@@ -3,7 +3,7 @@ from typing import Dict, List, Tuple, Any
 
 import numpy as np
 from allennlp.common.file_utils import cached_path
-from allennlp.data.dataset import Batch
+from allennlp.data.batch import Batch
 from allennlp.data.dataset_readers.dataset_reader import DatasetReader
 from allennlp.data.fields import ArrayField, LabelField, MetadataField, TextField
 from allennlp.data.instance import Instance
@@ -14,19 +14,20 @@ from numpy.random import RandomState
 from overrides import overrides
 
 
+def to_token(text):
+    token = Token(text)
+    token.info = {}
+    return token
+
+
 @DatasetReader.register("base_reader")
 class BaseReader(DatasetReader):
     def __init__(
-        self,
-        token_indexers: Dict[str, TokenIndexer],
-        keep_prob: float = 1.0,
-        human_prob: float = 1.0,
-        lazy: bool = False,
+        self, token_indexers: Dict[str, TokenIndexer], human_prob: float = 1.0, lazy: bool = False,
     ) -> None:
         super().__init__(lazy=lazy)
         self._tokenizer = WhitespaceTokenizer()
         self._token_indexers = token_indexers
-        self._keep_prob = keep_prob
         self._human_prob = human_prob
 
     @overrides
@@ -44,28 +45,35 @@ class BaseReader(DatasetReader):
                 if label is not None:
                     label = str(label).replace(" ", "_")
 
-                if rs.random_sample() < self._keep_prob:
-                    instance = self.text_to_instance(
-                        annotation_id=annotation_id, document=document, query=query, label=label, rationale=rationale
-                    )
-                    if instance is not None:
-                        yield instance
+                instance = self.text_to_instance(
+                    annotation_id=annotation_id,
+                    document=document,
+                    query=query,
+                    label=label,
+                    rationale=rationale,
+                )
+                yield instance
 
     @overrides
     def text_to_instance(
-        self, annotation_id: str, document: str, query: str = None, label: str = None, rationale: List[tuple] = None
+        self,
+        annotation_id: str,
+        document: str,
+        query: str = None,
+        label: str = None,
+        rationale: List[tuple] = None,
     ) -> Instance:  # type: ignore
         # pylint: disable=arguments-differ
         fields = {}
 
-        document_tokens = [Token(t.text, info={}) for t in self._tokenizer.tokenize(document)]
+        document_tokens = [to_token(t.text) for t in self._tokenizer.tokenize(document)]
         human_rationale_labels = [0] * len(document_tokens)
         for s, e in rationale:
             for i in range(s, e):
                 human_rationale_labels[i] = 1
 
         if query is not None:
-            query_tokens = [Token(t.text, info={}) for t in self._tokenizer.tokenize(query)]
+            query_tokens = [to_token(t.text) for t in self._tokenizer.tokenize(query)]
         else:
             query_tokens = []
 
@@ -85,8 +93,8 @@ class BaseReader(DatasetReader):
             "label": label,
         }
 
-        if query is not None :
-            metadata['query'] = query
+        if query is not None:
+            metadata["query"] = query
 
         fields["metadata"] = MetadataField(metadata)
 
@@ -97,12 +105,14 @@ class BaseReader(DatasetReader):
 
     def convert_tokens_to_instance(self, tokens: List[Token]):
         fields = {}
-        tokens = tokens[0] + (([Token('[DQSEP]')] + tokens[1]) if len(tokens[1]) > 0 else [])
+        tokens = tokens[0] + (([to_token("[DQSEP]")] + tokens[1]) if len(tokens[1]) > 0 else [])
         fields["document"] = TextField(tokens, self._token_indexers)
 
         return Instance(fields)
 
-    def convert_documents_to_batch(self, documents: List[Tuple[List[Token], List[Token]]], vocabulary) -> Dict[str, Any]:
+    def convert_documents_to_batch(
+        self, documents: List[Tuple[List[Token], List[Token]]], vocabulary
+    ) -> Dict[str, Any]:
         batch = Batch([self.convert_tokens_to_instance(tokens) for tokens in documents])
         batch.index_instances(vocabulary)
         batch = batch.as_tensor_dict()

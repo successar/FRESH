@@ -97,7 +97,7 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
             log_prob_z = sampler.log_prob(sample_z)  # (B, L)
             log_prob_z_sum = (mask * log_prob_z).sum(-1)  # (B,)
 
-            lasso_loss = util.masked_mean(sample_z, mask, dim=-1)
+            lasso_loss = util.masked_mean(sample_z, mask == 1, dim=-1)
             censored_lasso_loss = F.relu(lasso_loss - self._desired_length)
 
             diff = (sample_z[:, 1:] - sample_z[:, :-1]).abs()
@@ -131,7 +131,7 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
         output_dict["predicted_rationale"] = generator_dict["predicted_rationale"]
 
         self._loss_tracks["_rat_length"](
-            util.masked_mean(generator_dict["predicted_rationale"], mask, dim=-1).mean().item()
+            util.masked_mean(generator_dict["predicted_rationale"], mask == 1, dim=-1).mean().item()
         )
 
         self._call_metrics(output_dict)

@@ -23,7 +23,7 @@ function rationale {
         --predictor rationale_predictor \
         --include-package Rationale_Analysis \
         --cuda-device ${CUDA_DEVICE:?"set cuda device"} \
-        -o "{model: {rationale_extractor : {type : '${RATIONALE}', max_length_ratio: ${MAX_LENGTH_RATIO}}}}" \
+        --overrides "{model: {rationale_extractor : {type : '${RATIONALE}', max_length_ratio: ${MAX_LENGTH_RATIO}}}}" \
         --silent \
         $OUTPUT_BASE_PATH/model.tar.gz $2;
     fi;
@@ -40,7 +40,7 @@ function evaluate {
         --batch-size ${BSIZE} \
         --include-package Rationale_Analysis \
         --cuda-device ${CUDA_DEVICE:?"set cuda device"} \
-        -o "{model: {rationale_extractor : {type : '${RATIONALE}', max_length_ratio: ${MAX_LENGTH_RATIO}}}}" \
+        --overrides "{model: {rationale_extractor : {type : '${RATIONALE}', max_length_ratio: ${MAX_LENGTH_RATIO}}}}" \
         $OUTPUT_BASE_PATH/model.tar.gz $2;
     fi;
 }

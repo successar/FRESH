@@ -117,7 +117,7 @@ class SupervisedBertExtractor(RationaleBaseModel):
         metrics.update({"rlength": float(self._rationale_length.get_metric(reset))})
         return metrics
 
-    def decode(self, output_dict):
+    def make_output_human_readable(self, output_dict):
         rationales = self._extractor.extract_rationale(attentions=output_dict['probs'], document=output_dict['document'], as_one_hot=False)
         new_output_dict = {}
 

@@ -17,9 +17,7 @@ class SaliencyScorer(Model) :
         output_dict = self.score(**inputs)
         return output_dict
 
-    def decode(self, output_dict) :
-        # model_output_dict = self._model['model'].decode(output_dict)
-
+    def make_output_human_readable(self, output_dict) :
         assert "attentions" in output_dict
         assert "metadata" in output_dict
 

@@ -10,8 +10,6 @@ from allennlp.nn import InitializerApplicator, RegularizerApplicator, util
 from Rationale_Analysis.models.classifiers.base_model import RationaleBaseModel
 from Rationale_Analysis.models.utils import generate_embeddings_for_pooling
 
-# from longformer.longformer import Longformer
-
 
 @Model.register("bert_classifier")
 class BertClassifier(RationaleBaseModel):
@@ -30,8 +28,6 @@ class BertClassifier(RationaleBaseModel):
         self._num_labels = self._vocabulary.get_vocab_size("labels")
         self._bert_config = AutoConfig.from_pretrained(bert_model, output_attentions=True)
         self._bert_model = AutoModel.from_pretrained(bert_model, config=self._bert_config)
-
-        # self._bert_model = Longformer.from_pretrained(bert_model, output_attentions=True)
 
         self._dropout = nn.Dropout(dropout)
         self._classifier = nn.Linear(self._bert_model.config.hidden_size, self._num_labels)

@@ -1,4 +1,4 @@
-local bert_type = if std.findSubstr('evinf', std.extVar('TRAIN_DATA_PATH')) == [] then 'roberta-base' else 'allenai/scibert_scivocab_uncased';
+local bert_type = std.extVar('BERT_TYPE');
 
 local bert_model = {
   type: "supervised_bert_extractor",
@@ -35,9 +35,10 @@ local indexer = "pretrained-simple";
   validation_data_path: std.extVar('DEV_DATA_PATH'),
   test_data_path: std.extVar('TEST_DATA_PATH'),
   model: bert_model,
-  iterator: {
-    type: "basic",
-    batch_size : std.extVar('BSIZE')
+  data_loader : {
+    batch_size: std.extVar('BSIZE'),
+    shuffle: true,
+    batch_sampler: "random"
   },
   trainer: {
     num_epochs: 20,

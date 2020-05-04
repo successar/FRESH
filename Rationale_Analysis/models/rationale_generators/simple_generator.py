@@ -129,7 +129,7 @@ class BertMiddleModel(Model):
         metrics = self._token_prf.get_metric(reset)
         return dict(zip(["p", "r", "f1"], metrics))
 
-    def decode(self, output_dict) :
+    def make_output_human_readable(self, output_dict) :
         rationales = self.extract_rationale(output_dict)
         new_output_dict = {}
 

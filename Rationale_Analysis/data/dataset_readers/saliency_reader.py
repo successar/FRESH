@@ -1,6 +1,6 @@
 import json
 from typing import Dict, Any
-import numpy as np 
+import numpy as np
 
 from overrides import overrides
 
@@ -22,9 +22,9 @@ class SaliencyReader(DatasetReader):
         with open(cached_path(file_path), "r") as data_file:
             for line in data_file.readlines():
                 items = json.loads(line)
-                saliency = np.array(items['saliency'])
-                document = items['document']
-                metadata = {k:v for k, v in items.items() if k != 'saliency'}
+                saliency = np.array(items["saliency"])
+                document = items["document"]
+                metadata = {k: v for k, v in items.items() if k != "saliency"}
                 instance = self.text_to_instance(saliency=saliency, document=document, metadata=metadata)
                 if instance is not None:
                     yield instance
@@ -33,13 +33,10 @@ class SaliencyReader(DatasetReader):
     def text_to_instance(self, saliency, document, metadata: Dict[str, Any]) -> Instance:  # type: ignore
         # pylint: disable=arguments-differ
         fields = {}
-        fields['attentions'] = ArrayField(saliency, padding_value=0.0)
-        fields['document'] = MetadataField({
-            'tokens' : [Token(t) for t in document.split()]
-        })
-        fields['metadata'] = MetadataField(metadata)
+        fields["attentions"] = ArrayField(saliency, padding_value=0.0)
+        fields["document"] = MetadataField({"tokens": [Token(t) for t in document.split()]})
+        fields["metadata"] = MetadataField(metadata)
 
-        assert len(saliency) == len(fields['document'].metadata['tokens'])
+        assert len(saliency) == len(fields["document"].metadata["tokens"])
 
         return Instance(fields)
-

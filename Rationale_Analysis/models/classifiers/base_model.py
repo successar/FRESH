@@ -27,7 +27,7 @@ class RationaleBaseModel(Model):
 
         raise NotImplementedError
 
-    def decode(self, output_dict):
+    def make_output_human_readable(self, output_dict):
         output_dict = self._decode(output_dict)
         output_labels = self._vocabulary.get_index_to_token_vocabulary("labels")
 

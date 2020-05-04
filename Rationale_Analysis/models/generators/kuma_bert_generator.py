@@ -65,7 +65,7 @@ class KumaraswamyBertGenerator(RationaleBaseModel):
             bert_document["bert"]['document-ending-offsets']
         )
 
-        token_embeddings = util.masked_mean(token_embeddings, span_mask.unsqueeze(-1), dim=2)
+        token_embeddings = util.masked_max(token_embeddings, span_mask.unsqueeze(-1) == 1, dim=2)
         token_embeddings = token_embeddings * bert_document['bert']["mask"].unsqueeze(-1)
 
         logits = torch.nn.functional.softplus(self._classification_layer(self._dropout(token_embeddings)))
