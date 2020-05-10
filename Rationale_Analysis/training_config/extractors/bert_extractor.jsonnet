@@ -1,47 +1,33 @@
-local bert_type = std.extVar('BERT_TYPE');
-
-local bert_model = {
-  type: "supervised_bert_extractor",
-  bert_model: bert_type,
-  requires_grad: '10,11,pooler',
-  dropout : 0.2,
-  max_length_ratio: std.extVar('MAX_LENGTH_RATIO')
-};
-
-local indexer = "pretrained-simple";
+local berts = import '../berts.libsonnet';
 
 {
   dataset_reader : {
     type : "extractor_reader",
     token_indexers : {
-      bert : {
-        type : indexer,
-        model_name : bert_type,
-      },
+      bert : berts.indexer,
     },
     human_prob: std.extVar('HUMAN_PROB')
   },
   validation_dataset_reader: {
     type : "extractor_reader",
     token_indexers : {
-      bert : {
-        type : indexer,
-        model_name : bert_type,
-      },
+      bert : berts.indexer,
     },
     human_prob: std.extVar('HUMAN_PROB')
   },
-  train_data_path: std.extVar('TRAIN_DATA_PATH'),
-  validation_data_path: std.extVar('DEV_DATA_PATH'),
-  test_data_path: std.extVar('TEST_DATA_PATH'),
-  model: bert_model,
   data_loader : {
     batch_size: std.extVar('BSIZE'),
     shuffle: true,
     batch_sampler: "random"
   },
+  train_data_path: std.extVar('TRAIN_DATA_PATH'),
+  validation_data_path: std.extVar('DEV_DATA_PATH'),
+  test_data_path: std.extVar('TEST_DATA_PATH'),
+  model: berts.extractor + {
+    max_length_ratio: std.extVar('MAX_LENGTH_RATIO')
+  },
   trainer: {
-    num_epochs: 20,
+    num_epochs: std.extVar('EPOCHS'),
     patience: 10,
     grad_norm: 5.0,
     validation_metric: "+f1",

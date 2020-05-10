@@ -22,8 +22,8 @@ def get_tokens(tokens) :
     return tokens
 
 
-@TokenIndexer.register("pretrained-simple")
-class PretrainedTransformerIndexerSimple(PretrainedTransformerIndexer):
+@TokenIndexer.register("pretrained-simple-movies")
+class PretrainedTransformerIndexerSimpleMovies(PretrainedTransformerIndexer):
     def tokens_to_indices(
         self, tokens: List[Token], vocabulary: Vocabulary
     ) -> Dict[str, List[int]]:
@@ -35,40 +35,21 @@ class PretrainedTransformerIndexerSimple(PretrainedTransformerIndexer):
             for token_list in tokens
         ]
 
-        if len(tokens) == 2 :
-            wordpiece_ids, type_ids, offsets_doc, offsets_query = self.intra_word_tokenize_sentence_pair(token_wordpiece_ids[0], token_wordpiece_ids[1])
-        else :
-            wordpiece_ids, type_ids, offsets_doc = self.intra_word_tokenize_sentence(token_wordpiece_ids[0])
+        assert len(tokens) == 1
 
-        if len(offsets_doc) == 0 :
-            doc_starting_offsets, doc_ending_offsets = [], []
-        else :
-            doc_starting_offsets, doc_ending_offsets = list(zip(*offsets_doc))
+        wordpiece_ids, type_ids, offsets_doc = self.intra_word_tokenize_sentence(token_wordpiece_ids[0])
 
-        if len(wordpiece_ids) > 512:
-            postions_ids = [
-                i * 512 / len(wordpiece_ids) for i in range(len(wordpiece_ids))
-            ]
-        else:
-            postions_ids = list(range(len(wordpiece_ids)))
+        token_mask = [True]*len(tokens[0])
 
-        token_mask = [1]*len(tokens[0])
-        wordpiece_mask = [1] * len(wordpiece_ids)
-        wordpiece_to_tokens = [-1] * len(wordpiece_ids)
-        for i, (start, end) in enumerate(zip(doc_starting_offsets, doc_ending_offsets)) :
-            for j in range(start, end) :
-                wordpiece_to_tokens[j] = i
-
-        return {
-            "wordpiece-ids": wordpiece_ids,
-            "document-starting-offsets": list(doc_starting_offsets),
-            "document-ending-offsets": list(doc_ending_offsets),
-            "type-ids": type_ids,
-            "position-ids": postions_ids,
-            "wordpiece-mask": wordpiece_mask,
-            "mask": token_mask,
-            "wordpiece-to-token" : wordpiece_to_tokens
+        output_dict = {
+            "token_ids" : wordpiece_ids,
+            "wordpiece_mask": [True] * len(wordpiece_ids),
+            "mask" : token_mask,
+            "type_ids": type_ids,
+            "offsets": offsets_doc
         }
+
+        return self._postprocess_output(output_dict)
 
     def add_token_info(self, tokens: List[Token], index_name: str):
         self._index_name = index_name
@@ -95,7 +76,14 @@ class PretrainedTransformerIndexerSimple(PretrainedTransformerIndexer):
     ) -> Dict[str, torch.Tensor]:
         # Different transformers use different padding values for tokens, but for mask and type id, the padding
         # value is always 0.
-        return {
+
+        tokens = tokens.copy()
+        padding_lengths = padding_lengths.copy()
+
+        offsets_tokens = tokens.pop("offsets")
+        offsets_padding_lengths = padding_lengths.pop("offsets")
+
+        tensor_dict = {
             key: torch.LongTensor(
                 pad_sequence_to_length(
                     val,
@@ -107,6 +95,14 @@ class PretrainedTransformerIndexerSimple(PretrainedTransformerIndexer):
             )
             for key, val in tokens.items()
         }
+
+        tensor_dict["offsets"] = torch.LongTensor(
+            pad_sequence_to_length(
+                offsets_tokens, offsets_padding_lengths, default_value=lambda: (0, 0)
+            )
+        )
+
+        return tensor_dict
 
     def intra_word_tokenize_in_id(
         self, tokens: List[List[int]], starting_offset: int = 0
@@ -126,24 +122,6 @@ class PretrainedTransformerIndexerSimple(PretrainedTransformerIndexer):
             offsets.append((start_offset, end_offset))
 
         return wordpieces, offsets, cumulative
-
-    def intra_word_tokenize_sentence_pair(
-        self, tokens_a: List[List[int]], tokens_b: List[List[int]]
-    ) -> Tuple[List[int], List[int], List[Tuple[int, int]], List[Tuple[int, int]]]:
-
-        wordpieces_a, offsets_a, cumulative = self.intra_word_tokenize_in_id(
-            tokens_a, self._allennlp_tokenizer.num_added_start_tokens
-        )
-
-        wordpieces_b, offsets_b, cumulative = self.intra_word_tokenize_in_id(
-            tokens_b, cumulative + self._allennlp_tokenizer.num_added_middle_tokens
-        )
-
-        text_ids = self._tokenizer.build_inputs_with_special_tokens(wordpieces_a, wordpieces_b)
-        type_ids = self._tokenizer.create_token_type_ids_from_sequences(wordpieces_a, wordpieces_b)
-
-        assert cumulative + self._allennlp_tokenizer.num_added_end_tokens == len(text_ids)
-        return text_ids, type_ids, offsets_a, offsets_b
 
     def intra_word_tokenize_sentence(
         self, tokens_a: List[List[int]]

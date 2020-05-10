@@ -1,11 +1,11 @@
-from Rationale_Analysis.models.rationale_extractors.base_rationale_extractor import RationaleExtractor
-from Rationale_Analysis.experiments.global_objective import max_contig
+from Rationale_Analysis.models.thresholders.base_thresholder import Thresholder
+from Rationale_Analysis.models.thresholders.global_objective import max_contig
 from allennlp.models.model import Model
 
 import numpy as np
 
 @Model.register("global_contig")
-class GlobalTopKRationaleExtractor(RationaleExtractor) :
+class GlobalTopKRationaleExtractor(Thresholder) :
     def __init__(self, max_length_ratio: float, min_inst_ratio: float=-1.0):
         self._max_length_ratio = max_length_ratio
         self._min_inst_ratio = min_inst_ratio if min_inst_ratio >= 0.0 else (max_length_ratio / 2.0)

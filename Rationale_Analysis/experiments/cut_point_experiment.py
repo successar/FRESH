@@ -9,10 +9,7 @@ import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--script-type", type=str, required=True)
-# parser.add_argument("--exp-name", type=str, required=True)
 parser.add_argument("--dry-run", dest="dry_run", action="store_true")
-parser.add_argument("--run-one", dest="run_one", action="store_true")
-parser.add_argument("--cluster", dest="cluster", action="store_true")
 parser.add_argument("--all-data", dest="all_data", action="store_true")
 
 parser.add_argument("--output-dir", type=str)
@@ -48,8 +45,6 @@ def main(args):
                 args.script_type,
             ]
             + (["--dry-run"] if args.dry_run else [])
-            + (["--run-one"] if args.run_one else [])
-            + (["--cluster"] if args.cluster else [])
         )
 
         print(default_values[dataset])
@@ -57,12 +52,8 @@ def main(args):
         subprocess.run(cmd, check=True, env=new_env)
 
 
-# from itertools import product
 import pandas as pd
 import seaborn as sns
-import matplotlib
-
-# matplotlib.use("tkagg")
 import matplotlib.pyplot as plt
 import numpy as np
 
@@ -76,46 +67,7 @@ cut_point_thresh = {
 }
 
 
-def get_old_type(args, dataset, seed):
-    lei_dir_c1 = os.path.join(
-        args.output_dir,
-        f"bert_encoder_generator/{dataset}/cut_point/RANDOM_SEED={seed}/top_k_rationale/direct/test_metrics.json",
-    )
-    lei_dir_c2 = os.path.join(
-        args.output_dir,
-        f"bert_encoder_generator/{dataset}/direct/RANDOM_SEED={seed}/top_k_rationale/direct/test_metrics.json",
-    )
-
-    fresh_dir_c1 = os.path.join(
-        args.output_dir,
-        f"bert_classification/{dataset}/direct/RANDOM_SEED={seed}/wrapper_saliency/top_k_rationale/second_cut_point/model_b/metrics.json",
-    )
-    fresh_dir_c2 = os.path.join(
-        args.output_dir,
-        f"bert_classification/{dataset}/direct/RANDOM_SEED={seed}/wrapper_saliency/top_k_rationale/direct/model_b/metrics.json",
-    )
-
-    def get_validation_metric(file):
-        try:
-            metrics = json.load(open(file))
-            metrics = {
-                k: v
-                for k, v in metrics.items()
-                if k.startswith("test_fscore")
-                or k.startswith("test__fscore")
-                or k.startswith("_fscore")
-                or k.startswith("fscore")
-            }
-            m = np.mean(list(metrics.values()))
-            return max(0, m)
-        except FileNotFoundError:
-            print(file)
-            return None
-
-    return [get_validation_metric(file) for file in [lei_dir_c1, lei_dir_c2, fresh_dir_c1, fresh_dir_c2]]
-
-
-def get_new_type(args, dataset, seed):
+def get_metrics(args, dataset, seed):
     lei_dir_c1 = os.path.join(
         args.output_dir,
         f"{dataset}/bert_encoder_generator/second_cut_point/RANDOM_SEED={seed}/top_k_rationale/direct/test_metrics.json",
@@ -151,11 +103,9 @@ def get_new_type(args, dataset, seed):
 
 def results(args):
     data = []
-    names = ["Lei et al", "[CLS] Attention + Top K"]
     for dataset, dataset_name in datasets.items():
         for seed in [1000, 2000, 3000, 4000, 5000]:
-            metrics = get_new_type if dataset in ["multirc", "evinf"] else get_old_type
-            metrics = metrics(args, dataset, seed)
+            metrics = get_metrics(args, dataset, seed)
             lei_1, lei_2, fresh_1, fresh_2 = metrics
             if lei_1 is not None:
                 data.append(

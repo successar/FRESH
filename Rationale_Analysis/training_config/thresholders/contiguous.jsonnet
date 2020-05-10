@@ -6,7 +6,7 @@
         type : "saliency_reader",
     },
     model : {
-        type : 'max_length',
+        type : 'contiguous',
         max_length_ratio: std.extVar('MAX_LENGTH_RATIO')
     },
 }

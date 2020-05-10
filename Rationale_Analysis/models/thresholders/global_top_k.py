@@ -1,9 +1,9 @@
-from Rationale_Analysis.models.rationale_extractors.base_rationale_extractor import RationaleExtractor
-from Rationale_Analysis.experiments.global_objective import max_limited_min
+from Rationale_Analysis.models.thresholders.base_thresholder import Thresholder
+from Rationale_Analysis.models.thresholders.global_objective import max_limited_min
 from allennlp.models.model import Model
 
 @Model.register("global_top_k")
-class GlobalTopKRationaleExtractor(RationaleExtractor) :
+class GlobalTopKThresholder(Thresholder) :
     def __init__(self, max_length_ratio: float, min_inst_ratio: float=-1.0):
         self._max_length_ratio = max_length_ratio
         self._min_inst_ratio = min_inst_ratio if min_inst_ratio >= 0.0 else (max_length_ratio / 2.0)

@@ -28,6 +28,9 @@ class KumaraswamyGenEncClassifier(RationaleBaseModel):
         initializer: InitializerApplicator = InitializerApplicator(),
         regularizer: Optional[RegularizerApplicator] = None,
     ):
+        '''
+            The lagrangian relaxation code has been mostly copied from code accompanying original paper.
+        '''
 
         super(KumaraswamyGenEncClassifier, self).__init__(vocab, initializer, regularizer)
         self._vocabulary = vocab

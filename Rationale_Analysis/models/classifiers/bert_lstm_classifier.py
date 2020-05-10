@@ -8,9 +8,9 @@ from allennlp.models.model import Model
 from allennlp.nn import InitializerApplicator, RegularizerApplicator, util
 from Rationale_Analysis.models.classifiers.base_model import RationaleBaseModel
 from allennlp.modules import Seq2SeqEncoder, TextFieldEmbedder, FeedForward
-from allennlp.modules.attention import Attention
+from allennlp.modules.attention.additive_attention import AdditiveAttention
 
-@Model.register("encoder_attention_classifier")
+@Model.register("bert_lstm_classifier")
 class EncoderAttentionClassifier(RationaleBaseModel):
     def __init__(
         self,
@@ -18,7 +18,7 @@ class EncoderAttentionClassifier(RationaleBaseModel):
         text_field_embedder: TextFieldEmbedder,
         seq2seq_encoder: Seq2SeqEncoder,
         feedforward_encoder: FeedForward,
-        attention: Attention,
+        requires_grad: str,
         dropout: float = 0.0,
         initializer: InitializerApplicator = InitializerApplicator(),
         regularizer: Optional[RegularizerApplicator] = None,
@@ -28,10 +28,21 @@ class EncoderAttentionClassifier(RationaleBaseModel):
         self._vocabulary = vocab
         self._num_labels = self._vocabulary.get_vocab_size("labels")
         self._text_field_embedder = text_field_embedder
+        
+        if requires_grad in ["none", "all"]:
+            for param in self._text_field_embedder.parameters():
+                param.requires_grad = requires_grad == "all"
+        else:
+            model_name_regexes = requires_grad.split(",")
+            for name, param in self._text_field_embedder.named_parameters():
+                found = any([regex in name for regex in model_name_regexes])
+                param.requires_grad = found
+
         self._seq2seq_encoder = seq2seq_encoder
         self._dropout = torch.nn.Dropout(p=dropout)
 
-        self._attention = attention
+        seq2seq_size = self._seq2seq_encoder.get_output_dim()
+        self._attention = AdditiveAttention(vector_dim=seq2seq_size, matrix_dim=seq2seq_size)
 
         self._feedforward_encoder = feedforward_encoder
         self._classifier_input_dim = self._feedforward_encoder.get_output_dim()
@@ -41,7 +52,7 @@ class EncoderAttentionClassifier(RationaleBaseModel):
 
         self._vector = torch.nn.Parameter(torch.randn((1, self._seq2seq_encoder.get_output_dim(),)))
 
-        self.embedding_layers = [str(type(self._text_field_embedder))]
+        self.embedding_layers = [self._text_field_embedder]
 
         initializer(self)
 
@@ -49,8 +60,9 @@ class EncoderAttentionClassifier(RationaleBaseModel):
         # pylint: disable=arguments-differ,unused-argument
 
         tensorized_document = self.combine_document_query(document, query)
+        
         embedded_text = self._text_field_embedder(tensorized_document)
-        mask = util.get_text_field_mask(tensorized_document).float()
+        mask = util.get_text_field_mask(tensorized_document)
 
         embedded_text = self._seq2seq_encoder(embedded_text, mask=mask)
         attentions = self._attention(vector=self._vector, matrix=embedded_text, matrix_mask=mask)

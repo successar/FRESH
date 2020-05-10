@@ -1,10 +1,10 @@
-from Rationale_Analysis.models.rationale_extractors.base_rationale_extractor import RationaleExtractor
+from Rationale_Analysis.models.thresholders.base_thresholder import Thresholder
 from allennlp.models.model import Model
 import math
 import numpy as np
 
-@Model.register("max_length")
-class MaxLengthRationaleExtractor(RationaleExtractor) :
+@Model.register("top_k")
+class TopKThresholder(Thresholder) :
     def __init__(self, max_length_ratio: float) :
         self._max_length_ratio = max_length_ratio
         super().__init__()
@@ -15,34 +15,26 @@ class MaxLengthRationaleExtractor(RationaleExtractor) :
         return output_dict
  
     def extract_rationale(self, attentions, document, as_one_hot=False):
-        # attentions : (B, L), metadata: List[Dict] of size B
-        cumsumed_attention = attentions.cumsum(-1)
+        attentions = attentions.cpu().data.numpy()
+        document_tokens = [x["tokens"] for x in document]
 
         assert len(attentions) == len(document)
         assert attentions.shape[1] == max([len(d['tokens']) for d in document])
 
-        document_tokens = [x["tokens"] for x in document]
         rationales = []
-        for b in range(cumsumed_attention.shape[0]):
-            attn = cumsumed_attention[b]
+        for b in range(attentions.shape[0]):
             sentence = [x.text for x in document_tokens[b]]
-            best_v = np.zeros((len(sentence),))
+            attn = attentions[b][:len(sentence)]
             max_length = math.ceil(len(sentence) * self._max_length_ratio)
-            for i in range(0, len(sentence) - max_length + 1):
-                j = i + max_length
-                best_v[i] = attn[j - 1] - (attn[i - 1] if i - 1 >= 0 else 0)
             
-            index = np.argmax(best_v)
-            i, j, v = index, index + max_length, best_v[index]
-
-            top_ind = list(range(i, j))
+            top_ind, top_vals = np.argsort(attn)[-max_length:], np.sort(attn)[-max_length:]
             if as_one_hot :
                 rationales.append([1 if i in top_ind else 0 for i in range(attentions.shape[1])])
                 continue
-
+            
             rationales.append({
-                'document' : " ".join([x for idx, x in enumerate(sentence) if idx in top_ind]),
-                'spans' : [{'span' : (i, j), 'value' : float(v)}],
+                'document' : " ".join([x for i, x in enumerate(sentence) if i in top_ind]),
+                'spans' : [{'span' : (i, i+1), 'value' : float(v)} for i, v in zip(top_ind, top_vals)],
             })
 
         return rationales

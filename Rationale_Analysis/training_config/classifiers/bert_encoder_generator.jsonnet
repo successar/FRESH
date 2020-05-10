@@ -1,38 +1,16 @@
-local bert_type = std.extVar('BERT_TYPE');
-
-local bert_model = {
-  type: "bert_classifier",
-  bert_model: bert_type,
-  requires_grad: '10,11,pooler',
-  dropout : 0.2,
-};
-
-local indexer = "pretrained-simple";
-
-local bert_gen_model = {
-  type: "bernoulli_bert_generator",
-  bert_model: bert_type,
-  requires_grad: '10,11,pooler',
-  dropout : 0.2,
-};
+local berts = import '../berts.libsonnet';
 
 {
   dataset_reader : {
     type : "base_reader",
     token_indexers : {
-      bert : {
-        type : indexer,
-        model_name : bert_type,
-      },
+      bert : berts.indexer,
     },
   },
   validation_dataset_reader: {
     type : "base_reader",
     token_indexers : {
-      bert : {
-        type : indexer,
-        model_name : bert_type,
-      },
+      bert : berts.indexer,
     },
   },
   train_data_path: std.extVar('TRAIN_DATA_PATH'),
@@ -40,31 +18,29 @@ local bert_gen_model = {
   test_data_path: std.extVar('TEST_DATA_PATH'),
   model: {
     type: "bernoulli_gen_enc_classifier",
-    generator: bert_gen_model,
-    encoder : bert_model,
+    generator: berts.generator,
+    encoder : berts.classifier,
     samples: 1,
-    reg_loss_lambda: std.extVar('LAMBDA'),
-    reg_loss_mu: std.extVar('MU'),
-    desired_length: std.extVar('MAX_LENGTH_RATIO')
+    reg_loss_lambda: std.parseJson(std.extVar('LAMBDA')),
+    reg_loss_mu: std.parseJson(std.extVar('MU')),
+    desired_length: std.parseJson(std.extVar('MAX_LENGTH_RATIO')),
+    supervise_rationale: false
   },
   data_loader : {
-    batch_size: std.extVar('BSIZE'),
+    batch_size: std.parseInt(std.extVar('BSIZE')),
     shuffle: true,
-    batch_sampler: "random"
   },
   trainer: {
-    num_epochs: std.extVar('EPOCHS'),
+    num_epochs: std.parseInt(std.extVar('EPOCHS')),
     patience: 10,
     grad_norm: 5.0,
     validation_metric: "+validation_metric",
     checkpointer: {num_serialized_models_to_keep: 1,},
-    
-    cuda_device: std.extVar("CUDA_DEVICE"),
+    cuda_device: std.parseInt(std.extVar("CUDA_DEVICE")),
     optimizer: {
       type: "adamw",
       lr: 2e-5
-    },
-    should_log_learning_rate: true
+    }
   },
   random_seed:  std.parseInt(std.extVar("SEED")),
   pytorch_seed: std.parseInt(std.extVar("SEED")),

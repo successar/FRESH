@@ -35,8 +35,12 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
         self._num_labels = self._vocabulary.get_vocab_size("labels")
 
         self._generator = Model.from_params(
-            vocab=vocab, regularizer=regularizer, initializer=initializer, params=Params(generator), supervise_rationale=supervise_rationale,
-            max_length_ratio=desired_length
+            vocab=vocab,
+            regularizer=regularizer,
+            initializer=initializer,
+            params=Params(generator),
+            supervise_rationale=supervise_rationale,
+            max_length_ratio=desired_length,
         )
         self._encoder = Model.from_params(
             vocab=vocab, regularizer=regularizer, initializer=initializer, params=Params(encoder),
@@ -50,7 +54,14 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
 
         self._loss_tracks = {
             k: Average()
-            for k in ["_lasso_loss", "_base_loss", "_rat_length", "_fused_lasso_loss", "_censored_lasso_loss", "_generator_loss"]
+            for k in [
+                "_lasso_loss",
+                "_base_loss",
+                "_rat_length",
+                "_fused_lasso_loss",
+                "_censored_lasso_loss",
+                "_generator_loss",
+            ]
         }
 
         self._supervise_rationale = supervise_rationale
@@ -85,10 +96,10 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
 
         sample_z = sample_z * mask
         reduced_document = self.select_tokens(document, sample_z)
-        
+
         encoder_dict = self._encoder(document=reduced_document, query=query, label=label, metadata=metadata)
 
-        loss = 0.0 if not self._supervise_rationale else generator_dict['loss']
+        loss = 0.0 if not self._supervise_rationale else generator_dict["loss"]
 
         if label is not None:
             assert "loss" in encoder_dict
@@ -111,7 +122,7 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
 
             base_loss = loss_sample
             generator_loss = (
-                loss_sample.detach() 
+                loss_sample.detach()
                 + censored_lasso_loss * self._reg_loss_lambda
                 + fused_lasso_loss * (self._reg_loss_mu * self._reg_loss_lambda)
             ) * log_prob_z_sum
@@ -149,16 +160,16 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
     def select_tokens(self, document, sample_z):
         sample_z_cpu = sample_z.cpu().data.numpy()
         assert len(document) == len(sample_z_cpu)
-        assert max([len(d['tokens']) for d in document]) == sample_z_cpu.shape[1]
-        
+        assert max([len(d["tokens"]) for d in document]) == sample_z_cpu.shape[1]
+
         new_document = []
         for doc, mask in zip(document, sample_z_cpu):
-            mask = mask[: len(doc['tokens'])]
-            new_words = [w for w, m in zip(doc['tokens'], mask) if m == 1]
+            mask = mask[: len(doc["tokens"])]
+            new_words = [w for w, m in zip(doc["tokens"], mask) if m == 1]
 
-            new_document.append({'tokens' : new_words})
+            new_document.append({"tokens": new_words})
 
-        new_document[0]['reader_object'] = document[0]['reader_object']
+        new_document[0]["reader_object"] = document[0]["reader_object"]
 
         return new_document
 
@@ -169,7 +180,7 @@ class BernoulliGenEncClassifier(RationaleBaseModel):
         loss_metrics.update({k: v.get_metric(reset) for k, v in self._loss_tracks.items()})
         loss_metrics.update(base_metrics)
 
-        if self._supervise_rationale :
+        if self._supervise_rationale:
             loss_metrics.update(self._generator.get_metrics(reset))
 
         return loss_metrics

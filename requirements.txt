@@ -1,4 +1,4 @@
-allennlp==1.0.0rc3
+allennlp==1.0.0rc4.dev20200508 #Needs to be updated to 1.0.0 when released. Using nightly version due to evaluate bug in 1.0.0rc3
 torch==1.5.0
 transformers==2.8.0
 hyperopt==0.2.3

@@ -12,7 +12,7 @@ from Rationale_Analysis.models.classifiers.base_model import RationaleBaseModel
 
 from Rationale_Analysis.models.utils import generate_embeddings_for_pooling
 
-from Rationale_Analysis.models.rationale_extractors.top_k import TopKRationaleExtractor
+from Rationale_Analysis.models.thresholders.top_k import TopKThresholder
 
 
 @Model.register("supervised_bert_extractor")
@@ -51,7 +51,7 @@ class SupervisedBertExtractor(RationaleBaseModel):
         self._rationale_length = Average()
 
         self._pos_weight = torch.Tensor([1 / max_length_ratio - 1])
-        self._extractor = TopKRationaleExtractor(max_length_ratio=max_length_ratio)
+        self._extractor = TopKThresholder(max_length_ratio=max_length_ratio)
 
         initializer(self)
 

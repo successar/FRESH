@@ -3,7 +3,7 @@ from typing import Dict, Any
 import torch
 
 
-class RationaleExtractor(Model):
+class Thresholder(Model):
     def __init__(self):
         super().__init__(vocab=None)
         # self._keepsake_param = torch.nn.Parameter(torch.Tensor([0.0]))
