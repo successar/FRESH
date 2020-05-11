@@ -1,4 +1,4 @@
-export CONFIG_FILE=Rationale_Analysis/training_config/rationale_generators/bert_generator_human.jsonnet
+export CONFIG_FILE=Rationale_Analysis/training_config/extractors/bert_extractor.jsonnet
 export CUDA_DEVICE=${CUDA_DEVICE:?"set cuda device"}
 
 export TRAIN_DATA_PATH=${RATIONALE_PATH:?"Set thresholded rationale path"}/train.jsonl
@@ -13,7 +13,7 @@ export EPOCHS=${EPOCHS:-2}
 if [[ -f "${OUTPUT_BASE_PATH}/metrics.json" ]]; then
     echo "${OUTPUT_BASE_PATH}/metrics.json exists ... . Not running Training ";
 else 
-    echo "${OUTPUT_BASE_PATH}/metrics.json exists ... . TRAINING ";
+    echo "${OUTPUT_BASE_PATH}/metrics.json does not exists ... . TRAINING ";
     allennlp train -s $OUTPUT_BASE_PATH --include-package Rationale_Analysis --force $CONFIG_FILE
 fi;
 

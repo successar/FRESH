@@ -6,7 +6,7 @@ import torch
 class Thresholder(Model):
     def __init__(self):
         super().__init__(vocab=None)
-        # self._keepsake_param = torch.nn.Parameter(torch.Tensor([0.0]))
+        self._keepsake_param = torch.nn.Parameter(torch.Tensor([0.0]))
 
     def forward(self, **kwargs):
         # pylint: disable=arguments-differ

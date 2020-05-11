@@ -4,16 +4,16 @@ export TRAIN_DATA_PATH=$OUTPUT_BASE_PATH/${SALIENCY:?"Set Saliency scorer"}_sali
 export DEV_DATA_PATH=$OUTPUT_BASE_PATH/${SALIENCY}_saliency/dev.jsonl
 export TEST_DATA_PATH=$OUTPUT_BASE_PATH/${SALIENCY}_saliency/test.jsonl
 
-export RATIONALE_CONFIG_FILE=Rationale_Analysis/training_config/rationale_extractors/${RATIONALE:?"Set Rationale Extractor"}.jsonnet
-export RATIONALE_FOLDER_NAME=$OUTPUT_BASE_PATH/${SALIENCY}_saliency/${RATIONALE}_rationale/${RATIONALE_EXP_NAME:?"Set Rationale Extractor experiment name. May use hyperparameter settings for naming"}
+export THRESHOLDER_CONFIG_FILE=Rationale_Analysis/training_config/thresholders/${THRESHOLDER:?"Set Thresholder"}.jsonnet
+export THRESHOLDER_FOLDER_NAME=$OUTPUT_BASE_PATH/${SALIENCY}_saliency/${THRESHOLDER}_thresholder/${THRESHOLDER_EXP_NAME:?"Set thresholder exp name"}
 
-mkdir -p $RATIONALE_FOLDER_NAME
+mkdir -p $THRESHOLDER_FOLDER_NAME
 
 function rationale {
-    if [[ -f "$1"  && -z "$again" ]]; then
-        echo "$1 exists ... Not running Rationale ";
+    if [[ -f "$1"  && -z "$again" ]]; then 
+        echo "$1 exists .. Not Predicting";
     else 
-        echo "$1 do not exist RUNNING RATIONALE ";
+        echo "$1 do not exist ... Predicting";
         allennlp rationale \
         --output-file $1 \
         --batch-size ${BSIZE:-50} \
@@ -22,15 +22,15 @@ function rationale {
         --predictor rationale_predictor \
         --include-package Rationale_Analysis \
         --silent --cuda-device ${CUDA_DEVICE:?"set cuda device"} \
-        $RATIONALE_CONFIG_FILE $2;
+        $THRESHOLDER_CONFIG_FILE $2;
     fi;
 }
 
-rationale $RATIONALE_FOLDER_NAME/train.jsonl $TRAIN_DATA_PATH
-rationale $RATIONALE_FOLDER_NAME/dev.jsonl $DEV_DATA_PATH
-rationale $RATIONALE_FOLDER_NAME/test.jsonl $TEST_DATA_PATH
+rationale $THRESHOLDER_FOLDER_NAME/train.jsonl $TRAIN_DATA_PATH
+rationale $THRESHOLDER_FOLDER_NAME/dev.jsonl $DEV_DATA_PATH
+rationale $THRESHOLDER_FOLDER_NAME/test.jsonl $TEST_DATA_PATH
 
 KEEP_PROB=1.0 \
-DATA_BASE_PATH=$RATIONALE_FOLDER_NAME \
-EXP_NAME=${EXP_NAME}/${SALIENCY}_saliency/${RATIONALE}_rationale/${RATIONALE_EXP_NAME}/model_b \
+DATA_BASE_PATH=$THRESHOLDER_FOLDER_NAME \
+EXP_NAME=${EXP_NAME}/${SALIENCY}_saliency/${THRESHOLDER}_thresholder/${THRESHOLDER_EXP_NAME}/model_b \
 bash Rationale_Analysis/commands/model_train_script.sh

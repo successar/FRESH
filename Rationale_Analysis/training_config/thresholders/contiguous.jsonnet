@@ -7,6 +7,6 @@
     },
     model : {
         type : 'contiguous',
-        max_length_ratio: std.extVar('MAX_LENGTH_RATIO')
+        max_length_ratio: std.parseJson(std.extVar('MAX_LENGTH_RATIO'))
     },
 }

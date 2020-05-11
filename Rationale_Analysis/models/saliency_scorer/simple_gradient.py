@@ -44,8 +44,9 @@ class GradientSaliency(SaliencyScorer) :
             embeddings = embeddings_list[0]
 
             predicted_class_probs = output_dict["probs"][
-                torch.arange(output_dict["probs"].shape[0]), output_dict["predicted_labels"]
+                torch.arange(output_dict["probs"].shape[0]), output_dict["predicted_labels"].detach()
             ]  # (B, C)
+
 
             predicted_class_probs.sum().backward(retain_graph=True)
 

@@ -6,7 +6,7 @@ local berts = import '../berts.libsonnet';
     token_indexers : {
       bert : berts.indexer,
     },
-    human_prob: std.extVar('HUMAN_PROB')
+    human_prob: std.parseJson(std.extVar('HUMAN_PROB'))
   },
   validation_dataset_reader: {
     type : "base_reader",
@@ -41,8 +41,7 @@ local berts = import '../berts.libsonnet';
     optimizer: {
       type: "adamw",
       lr: 2e-5
-    },
-    should_log_learning_rate: true
+    }
   },
   random_seed:  std.parseInt(std.extVar("SEED")),
   pytorch_seed: std.parseInt(std.extVar("SEED")),

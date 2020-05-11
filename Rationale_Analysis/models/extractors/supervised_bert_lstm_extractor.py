@@ -5,7 +5,7 @@ import torch
 from allennlp.data.vocabulary import Vocabulary
 from allennlp.models.model import Model
 from allennlp.nn import InitializerApplicator, RegularizerApplicator, util
-from allennlp.modules import Seq2SeqEncoder, TextFieldEmbedder
+from allennlp.modules import Seq2SeqEncoder, TextFieldEmbedder, FeedForward, TimeDistributed
 
 from Rationale_Analysis.models.classifiers.base_model import RationaleBaseModel
 
@@ -20,7 +20,7 @@ class SupervisedBertLstmExtractor(RationaleBaseModel):
         vocab: Vocabulary,
         text_field_embedder: TextFieldEmbedder,
         seq2seq_encoder: Seq2SeqEncoder,
-        feedforward_encoder: Seq2SeqEncoder,
+        feedforward_encoder: FeedForward,
         requires_grad: str,
         dropout: float = 0.0,
         max_length_ratio: float = 1.0,
@@ -28,7 +28,7 @@ class SupervisedBertLstmExtractor(RationaleBaseModel):
         regularizer: Optional[RegularizerApplicator] = None,
     ):
 
-        super(SupervisedBertLstmExtractor, self).__init__(vocab, regularizer)
+        super(SupervisedBertLstmExtractor, self).__init__(vocab, initializer, regularizer)
         self._vocabulary = vocab
         self._text_field_embedder = text_field_embedder
 
@@ -44,7 +44,7 @@ class SupervisedBertLstmExtractor(RationaleBaseModel):
         self._seq2seq_encoder = seq2seq_encoder
         self._dropout = torch.nn.Dropout(p=dropout)
 
-        self._feedforward_encoder = feedforward_encoder
+        self._feedforward_encoder = TimeDistributed(feedforward_encoder)
         self._classifier_input_dim = feedforward_encoder.get_output_dim()
 
         self._classification_layer = torch.nn.Linear(self._classifier_input_dim, 1, bias=False)
@@ -91,7 +91,7 @@ class SupervisedBertLstmExtractor(RationaleBaseModel):
             self._token_prf(
                 torch.cat([1 - probs.unsqueeze(-1), probs.unsqueeze(-1)], dim=-1),
                 rationale.long(),
-                mask,
+                mask == 1,
             )
 
             predicted_rationale = (probs > 0.5).long() * mask

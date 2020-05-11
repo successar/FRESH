@@ -75,7 +75,7 @@ class SupervisedBertExtractor(RationaleBaseModel):
             bert_document["bert"]["document-ending-offsets"],
         )
 
-        token_embeddings = util.masked_max(token_embeddings, span_mask.unsqueeze(-1), dim=2)
+        token_embeddings = util.masked_max(token_embeddings, span_mask.unsqueeze(-1) == 1, dim=2)
         token_embeddings = token_embeddings * bert_document["bert"]["mask"].unsqueeze(-1)
 
         logits = self._classification_layer(self._dropout(token_embeddings))
@@ -103,7 +103,7 @@ class SupervisedBertExtractor(RationaleBaseModel):
             self._token_prf(
                 torch.cat([1 - probs.unsqueeze(-1), probs.unsqueeze(-1)], dim=-1),
                 rationale.long(),
-                mask,
+                mask == 1,
             )
 
             predicted_rationale = (probs > 0.5).long() * mask

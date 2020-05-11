@@ -94,7 +94,7 @@ class SimpleGeneratorModel(RationaleBaseModel):
                 self._token_prf(
                     torch.cat([1 - probs[rat_mask].unsqueeze(-1), probs[rat_mask].unsqueeze(-1)], dim=-1),
                     rationale[rat_mask].long(),
-                    mask[rat_mask],
+                    mask[rat_mask] == 1,
                 )
 
         return output_dict

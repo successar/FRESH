@@ -6,7 +6,7 @@ export TEST_DATA_PATH=$DATA_BASE_PATH/test.jsonl
 
 export OUTPUT_BASE_PATH=${OUTPUT_DIR:-outputs}/${DATASET_NAME:?"Set dataset name"}/${CLASSIFIER:?"Set classifier"}/${EXP_NAME:?"Set Exp name"}
 
-export RATIONALE_FOLDER_NAME=$OUTPUT_BASE_PATH/${RATIONALE}_rationale/${RATIONALE_EXP_NAME:?"Set Rationale Extractor experiment name. May use hyperparameter settings for naming"}
+export RATIONALE_FOLDER_NAME=$OUTPUT_BASE_PATH/${RATIONALE}_thresholder/${RATIONALE_EXP_NAME:?"Set Rationale Extractor experiment name. May use hyperparameter settings for naming"}
 
 mkdir -p $RATIONALE_FOLDER_NAME
 

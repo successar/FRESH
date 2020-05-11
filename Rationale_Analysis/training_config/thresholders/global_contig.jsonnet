@@ -7,7 +7,7 @@
     },
     model : {
         type : 'global_contig',
-        max_length_ratio: std.parseInt(std.extVar('MAX_LENGTH_PERCENT')) / 100,
-        min_inst_ratio: std.parseInt(std.extVar('MIN_INST_PERCENT')) / 100,
+        max_length_ratio: std.parseJson(std.extVar('MAX_LENGTH_RATIO')),
+        min_inst_ratio: std.parseJson(std.extVar('MIN_INST_RATIO')),
     },
 }
