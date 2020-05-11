@@ -1,7 +1,7 @@
 Learning to Faithfully Rationalize by Construction
 --------------------------------------------------
 
-**Coming Soon**
+This repository contains for paper https://arxiv.org/abs/2005.00115 to appear in ACL2020.
 
 ### Installation
 
@@ -48,7 +48,7 @@ We use bert-base-uncased for {SST, agnews, movies}, roberta-base for multirc and
 
 - HUMAN_PROB in [0, 1] -- amount of human supervision to use for rationales
 
-## Method to Run individual models once
+## Method to run individual models
 
 ### Training Fresh Model (supp and pred) using thresholded rationales only.
 
@@ -84,6 +84,8 @@ bash Rationale_Analysis/commands/fresh/fresh_with_extractor_script.sh
 ```
 
 ### Training Lei et al model
+
+MU/LAMBDA are hyperparameters for regularizer. Values we used after hyperparam search are in file Rationale_Analysis/default_values.json.
 
 ```bash
 CUDA_DEVICE=0 \
