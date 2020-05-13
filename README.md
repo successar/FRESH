@@ -87,7 +87,7 @@ bash Rationale_Analysis/commands/fresh/fresh_with_extractor_script.sh
 
 MU/LAMBDA are hyperparameters for regularizer. Values we used after hyperparam search are in file Rationale_Analysis/default_values.json.
 
-```bash
+```console
 CUDA_DEVICE=0 \
 DATASET_NAME=$DATASET_NAME \
 CLASSIFIER=bert_encoder_generator \
@@ -120,6 +120,89 @@ bash Rationale_Analysis/commands/encgen/experiment_script.sh
 
 ### variation due to random seeds
 
+1. For Lei et al,
+
+```bash
+CLASSIFIER=bert_encoder_generator \
+python Rationale_Analysis/experiments/run_for_random_seeds.py \
+--script-type encgen/experiment_script.sh \
+--all-data \
+```
+
+2. For Bastings et al,
+
+```bash
+CLASSIFIER=bert_kuma_encoder_generator \
+python Rationale_Analysis/experiments/run_for_random_seeds.py \
+--script-type encgen/experiment_script.sh \
+--all-data \
+```
+
+3. For Fresh,
+
+```bash
+CLASSIFIER=bert_classification \
+python Rationale_Analysis/experiments/run_for_random_seeds.py \
+--script-type fresh/experiment_script.sh \
+--all-data \
+```
+
 ### variation due to rationale length
 
+1. For Lei et al,
+
+```bash
+CLASSIFIER=bert_encoder_generator \
+python Rationale_Analysis/experiments/run_for_random_seeds.py \
+--script-type encgen/experiment_script.sh \
+--all-data \
+--defaults-file Rationale_Analysis/second_cut_point.json
+```
+
+2. For Bastings et al,
+
+```bash
+CLASSIFIER=bert_kuma_encoder_generator \
+python Rationale_Analysis/experiments/run_for_random_seeds.py \
+--script-type encgen/experiment_script.sh \
+--all-data \
+--defaults-file Rationale_Analysis/second_cut_point.json
+```
+
+3. For Fresh,
+
+```bash
+CLASSIFIER=bert_classification \
+python Rationale_Analysis/experiments/run_for_random_seeds.py \
+--script-type fresh/experiment_script.sh \
+--all-data \
+--defaults-file Rationale_Analysis/second_cut_point.json
+```
+
 ### variation due to human rationale supervision
+
+1. For Lei et al Model,
+
+```bash
+for human_prob in 0.0 0.2 0.5 1.0;
+do 
+    DATASET_NAME=$DATASET_NAME \
+    HUMAN_PROB=$human_prob \
+    CLASSIFIER=bert_encoder_generator_human \
+    python Rationale_Analysis/experiments/run_for_random_seeds.py \
+    --script-type encgen/supervised_experiment_script.sh;
+done;
+```
+
+2. For Fresh Model,
+
+```bash
+for human_prob in 0.0 0.2 0.5 1.0;
+do 
+    DATASET_NAME=$DATASET_NAME \
+    HUMAN_PROB=$human_prob \
+    CLASSIFIER=bert_classification \
+    python Rationale_Analysis/experiments/run_for_random_seeds.py \
+    --script-type fresh/fresh_with_extractor_script;
+done;
+```

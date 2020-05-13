@@ -21,7 +21,9 @@
         "MAX_LENGTH_RATIO" : 0.3,
         "MU" : 2.0,
         "LAMBDA" : 0.18,
-        "BSIZE": 1
+        "BSIZE": 4,
+        "LAMBDA_INIT" : 1e-5,
+        "BERT_TYPE" : "bert-base-uncased"
     },
     "SST" : {
         "MAX_LENGTH_RATIO" : 0.2,

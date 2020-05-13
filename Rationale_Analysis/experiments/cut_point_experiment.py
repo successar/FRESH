@@ -1,11 +1,15 @@
-import subprocess
-import os
-
+import argparse
 import json
+import os
+import subprocess
+
+import matplotlib.pyplot as plt
+import numpy as np
+import pandas as pd
+import seaborn as sns
 
 default_values = json.load(open("Rationale_Analysis/second_cut_point.json"))
 
-import argparse
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--script-type", type=str, required=True)
@@ -17,45 +21,6 @@ parser.add_argument("--dataset", type=str)
 parser.add_argument("--min-scale", type=float)
 parser.add_argument("--max-scale", type=float)
 
-
-def main(args):
-    if args.all_data:
-        datasets = default_values.keys()
-    else:
-        datasets = [os.environ["DATASET_NAME"]]
-
-    for dataset in datasets:
-        new_env = os.environ.copy()
-        new_env.update({k: str(v) for k, v in default_values[dataset].items()})
-        new_env["KEEP_PROB"] = str(1.0)
-        new_env["DATASET_NAME"] = dataset
-
-        ith_search_space = {}
-        ith_search_space["RANDOM_SEED"] = [1000, 2000, 3000, 4000, 5000]
-
-        cmd = (
-            [
-                "python",
-                "Rationale_Analysis/experiments/model_a_experiments.py",
-                "--exp-name",
-                "second_cut_point",
-                "--search-space",
-                json.dumps(ith_search_space),
-                "--script-type",
-                args.script_type,
-            ]
-            + (["--dry-run"] if args.dry_run else [])
-        )
-
-        print(default_values[dataset])
-        print(ith_search_space)
-        subprocess.run(cmd, check=True, env=new_env)
-
-
-import pandas as pd
-import seaborn as sns
-import matplotlib.pyplot as plt
-import numpy as np
 
 datasets = {"SST": "SST", "agnews": "AGNews", "evinf": "Ev. Inf.", "movies": "Movies", "multirc": "MultiRC"}
 cut_point_thresh = {

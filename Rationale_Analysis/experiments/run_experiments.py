@@ -11,6 +11,11 @@ parser.add_argument("--search-space", type=str, required=True)
 parser.add_argument("--dry-run", dest="dry_run", action="store_true")
 
 def main(args):
+    '''
+    We perform grid search over search space.
+    Results are stored in output_dir/exp_name/hyperparameter_string for each hyperparameter setting.
+    search space is specified as json string {'P1' : list of values, 'P2' : list of values, ...}
+    '''
     global_exp_name = args.exp_name
     search_space = json.loads(args.search_space)
     keys, values = zip(*search_space.items())

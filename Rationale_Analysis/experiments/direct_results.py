@@ -14,7 +14,7 @@ def main_lei(args):
     datasets = ["SST", "agnews", "multirc", "evinf", "movies"]
 
     seeds = [1000, 2000, 3000, 4000, 5000]
-    rationale = ["top_k", "max_length"]
+    rationale = ["top_k", "contiguous"]
     values = []
     for d, r, seed in product(datasets, rationale, seeds):
         path = os.path.join(
@@ -63,7 +63,7 @@ def main_lei(args):
 def main_ours(args):
     datasets = ["SST", "agnews", "multirc", "evinf", "movies"]
     saliency = ["wrapper", "simple_gradient"]
-    rationale = ["top_k", "max_length"]
+    rationale = ["top_k", "contiguous"]
 
     seeds = [1000, 2000, 3000, 4000, 5000]
     values = []
@@ -176,7 +176,7 @@ from scipy.stats import ttest_ind, ttest_rel
 
 
 def analyse_globality(values):
-    m = {"top_k": "top_k", "max_length": "contiguous", "global_top_k": "top_k", "global_contig": "contiguous"}
+    m = {"top_k": "top_k", "contiguous": "contiguous", "global_top_k": "top_k", "global_contig": "contiguous"}
 
     values = values[values.extraction == "direct"]
     values["global"] = values["rationale"].apply(lambda x: "global" in x)
@@ -186,23 +186,6 @@ def analyse_globality(values):
         if "global" in x and len(x[x["global"] == True]) == len(x[x["global"] == False]["value"]):
             stat, pval = ttest_rel(x[x["global"] == True]["value"], x[x["global"] == False]["value"])
             diff = x[x["global"] == True]["value"].mean() - x[x["global"] == False]["value"].mean()
-            return pd.Series({"delta": diff, "stat": stat, "pval": pval})
-        return pd.Series({"delta": -1, "stat": -1, "pval": -1})
-
-    values = values.groupby(["dataset", "saliency", "rationale"]).apply(compute_t_stat)
-    print(values)
-    print(values.to_latex(float_format="{:0.4f}".format))
-
-def analyse_crf(values):
-    m = {"top_k": "top_k", "max_length": "contiguous", "global_top_k": "top_k", "global_contig": "contiguous"}
-
-    values = values[values.rationale.isin(['top_k', 'max_length'])]
-    values["rationale"] = values["rationale"].apply(lambda x: m[x])
-
-    def compute_t_stat(x):
-        if len(x[x["extraction"] == "crf"]) == len(x[x["extraction"] == "direct"]):
-            stat, pval = ttest_rel(x[x["extraction"] == "crf"]["value"], x[x["extraction"] == "direct"]["value"])
-            diff = x[x["extraction"] == "crf"]["value"].mean() - x[x["extraction"] == "direct"]["value"].mean()
             return pd.Series({"delta": diff, "stat": stat, "pval": pval})
         return pd.Series({"delta": -1, "stat": -1, "pval": -1})
 

@@ -90,3 +90,10 @@ class RationaleBaseModel(Model):
             for k, v in reader.combine_document_query(document, query, self._vocabulary).items()
         }
 
+    # Because Allennlp loads models with strict=True 
+    # but encoder_generator type models requires 
+    # rationale extractor without keepsake params
+    # Reader need not worry.
+    def load_state_dict(self, state_dict, strict=True) :
+        super().load_state_dict(state_dict, strict=False)
+
