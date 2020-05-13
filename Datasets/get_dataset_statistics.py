@@ -5,7 +5,6 @@ import numpy as np
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--dataset", type=str, required=True)
-parser.add_argument("--all", dest="all", action="store_true")
 pd.set_option('display.max_colwidth', -1)
 
 
