@@ -54,15 +54,15 @@ We use bert-base-uncased for {SST, agnews, movies}, roberta-base for multirc and
 
 ```bash
 CUDA_DEVICE=0 \
-DATASET_NAME=$DATASET_NAME \
+DATASET_NAME=${DATASET_NAME} \
 CLASSIFIER=bert_classification \
-BERT_TYPE=$BERT_TYPE \
+BERT_TYPE=${BERT_TYPE} \
 EXP_NAME=fresh \
-MAX_LENGTH_RATIO=$MAX_LENGTH_RATIO \
-SALIENCY=$SALIENCY \
-THRESHOLDER=$THRESHOLDER \
+MAX_LENGTH_RATIO=${MAX_LENGTH_RATIO} \
+SALIENCY=${SALIENCY} \
+THRESHOLDER=${THRESHOLDER} \
 EPOCHS=20 \
-BSIZE=$BSIZE \
+BSIZE=${BSIZE} \
 bash Rationale_Analysis/commands/fresh/fresh_script.sh
 ```
 
