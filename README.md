@@ -14,7 +14,8 @@ This repository contains for paper https://arxiv.org/abs/2005.00115 to appear in
 ### Structure of Repository
 
 
-1. `Datasets` : Folder to store datasets. For each dataset, please run the processing code in Process.ipynb file in respective folders.
+1. `Datasets` : Folder to store datasets. For each dataset, please run the processing code in Process.ipynb file in respective folders. 
+Run `PYTHONPATH=$(pwd) jupyter lab` and navigate to each Dataset folder
 
 2. `Rationale_Analysis/models` : Folder to store allennlp models
     1. `classifiers` : Models that do actually learning 
