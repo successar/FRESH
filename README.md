@@ -44,6 +44,7 @@ In the following run scripts, the environment variables below can take these val
 - THRESHOLDER in {top_k, contiguous}
 - MAX_LENGTH_RATIO in [0, 1] -- desired length of rationales
 - BERT_TYPE in {bert-base-uncased, roberta-base, allenai/scibert_scivocab_uncased}
+- BSIZE = batch_size (Our default values are in Rationale_Analysis/default_values.json)
 
 We use bert-base-uncased for {SST, agnews, movies}, roberta-base for multirc and scibert for evinf.
 
