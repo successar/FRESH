@@ -34,6 +34,8 @@ def main_lei(args):
         if os.path.isfile(metrics_file_direct):
             metrics = json.load(open(metrics_file_direct))["validation_metric"]
             values.append({"dataset": d, "rationale": r, "seed": seed, "value": metrics})
+        else :
+            print(metrics_file_direct)
 
     values = pd.DataFrame(values)
     values_g = values.groupby(["dataset", "rationale"]).agg(
