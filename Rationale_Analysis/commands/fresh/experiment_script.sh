@@ -9,7 +9,7 @@ for saliency in wrapper simple_gradient;
         do
         SALIENCY=$saliency \
         THRESHOLDER=$thresholder \
-        THRESHOLDER_EXP_NAME=direct \
+        THRESHOLDER_EXP_NAME=$MAX_LENGTH_RATIO \
         bash Rationale_Analysis/commands/fresh/thresholder_and_model_b_script.sh;
         done;
     done;
