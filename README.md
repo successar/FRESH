@@ -130,7 +130,9 @@ EPOCHS=20 \
 CLASSIFIER=bert_encoder_generator \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type encgen/experiment_script.sh \
---all-data \
+--all-data;
+
+python Rationale_Analysis/experiments/random_seeds_results.py --output-dir outputs/ --lei
 ```
 
 2. For Bastings et al,
@@ -141,7 +143,9 @@ EPOCHS=20 \
 CLASSIFIER=bert_kuma_encoder_generator \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type encgen/experiment_script.sh \
---all-data \
+--all-data;
+
+python Rationale_Analysis/experiments/random_seeds_results.py --output-dir outputs/ --kuma
 ```
 
 3. For Fresh,
@@ -152,7 +156,9 @@ EPOCHS=20 \
 CLASSIFIER=bert_classification \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type fresh/experiment_script.sh \
---all-data \
+--all-data;
+
+python Rationale_Analysis/experiments/random_seeds_results.py --output-dir outputs/
 ```
 
 ### variation due to rationale length
