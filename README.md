@@ -125,6 +125,8 @@ bash Rationale_Analysis/commands/encgen/experiment_script.sh
 1. For Lei et al,
 
 ```bash
+CUDA_DEVICE=0 \
+EPOCHS=20 \
 CLASSIFIER=bert_encoder_generator \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type encgen/experiment_script.sh \
@@ -134,6 +136,8 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 2. For Bastings et al,
 
 ```bash
+CUDA_DEVICE=0 \
+EPOCHS=20 \
 CLASSIFIER=bert_kuma_encoder_generator \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type encgen/experiment_script.sh \
@@ -143,6 +147,8 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 3. For Fresh,
 
 ```bash
+CUDA_DEVICE=0 \
+EPOCHS=20 \
 CLASSIFIER=bert_classification \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type fresh/experiment_script.sh \
@@ -154,6 +160,8 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 1. For Lei et al,
 
 ```bash
+CUDA_DEVICE=0 \
+EPOCHS=20 \
 CLASSIFIER=bert_encoder_generator \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type encgen/experiment_script.sh \
@@ -164,6 +172,8 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 2. For Bastings et al,
 
 ```bash
+CUDA_DEVICE=0 \
+EPOCHS=20 \
 CLASSIFIER=bert_kuma_encoder_generator \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type encgen/experiment_script.sh \
@@ -174,6 +184,8 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 3. For Fresh,
 
 ```bash
+CUDA_DEVICE=0 \
+EPOCHS=20 \
 CLASSIFIER=bert_classification \
 python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type fresh/experiment_script.sh \
@@ -188,6 +200,8 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 ```bash
 for human_prob in 0.0 0.2 0.5 1.0;
 do 
+    CUDA_DEVICE=0 \
+    EPOCHS=20 \
     DATASET_NAME=$DATASET_NAME \
     HUMAN_PROB=$human_prob \
     CLASSIFIER=bert_encoder_generator_human \
@@ -201,6 +215,8 @@ done;
 ```bash
 for human_prob in 0.0 0.2 0.5 1.0;
 do 
+    CUDA_DEVICE=0 \
+    EPOCHS=20 \
     DATASET_NAME=$DATASET_NAME \
     HUMAN_PROB=$human_prob \
     CLASSIFIER=bert_classification \
