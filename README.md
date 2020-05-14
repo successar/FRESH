@@ -175,19 +175,7 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --defaults-file Rationale_Analysis/second_cut_point.json
 ```
 
-2. For Bastings et al,
-
-```bash
-CUDA_DEVICE=0 \
-EPOCHS=20 \
-CLASSIFIER=bert_kuma_encoder_generator \
-python Rationale_Analysis/experiments/run_for_random_seeds.py \
---script-type encgen/experiment_script.sh \
---all-data \
---defaults-file Rationale_Analysis/second_cut_point.json
-```
-
-3. For Fresh,
+2. For Fresh,
 
 ```bash
 CUDA_DEVICE=0 \
@@ -197,6 +185,13 @@ python Rationale_Analysis/experiments/run_for_random_seeds.py \
 --script-type fresh/experiment_script.sh \
 --all-data \
 --defaults-file Rationale_Analysis/second_cut_point.json
+```
+
+Results:
+
+```bash
+python Rationale_Analysis/rationale_lengths_results.py --output-dir outputs/ --min-scale 0.3 --max-scale 1.0;
+
 ```
 
 ### variation due to human rationale supervision
@@ -229,4 +224,10 @@ do
     python Rationale_Analysis/experiments/run_for_random_seeds.py \
     --script-type fresh/fresh_with_extractor_script;
 done;
+```
+
+Results : 
+
+```bash
+python Rationale_Analysis/supervised_rationale_plot.py --output-dir outputs/ --dataset $DATASET_NAME --min-scale 0.0 --max-scale 1.0;
 ```

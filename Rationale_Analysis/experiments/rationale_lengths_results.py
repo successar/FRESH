@@ -10,7 +10,6 @@ import seaborn as sns
 
 parser = argparse.ArgumentParser()
 parser.add_argument("--output-dir", type=str)
-parser.add_argument("--dataset", type=str)
 parser.add_argument("--min-scale", type=float)
 parser.add_argument("--max-scale", type=float)
 

@@ -19,6 +19,7 @@ import numpy as np
 
 datasets = {"multirc" : "MultiRC" , "evinf": "Ev. Inf."}
 saliency = {"multirc" : "simple_gradient", "evinf" : "wrapper"}
+max_lengths = {'multirc' : 0.2, 'evinf' : 0.1}
 lengths = [0.0, 0.2, 0.5, 1.0]
 
 def get_new_type(args, dataset, seed, hp):
@@ -34,17 +35,15 @@ def get_new_type(args, dataset, seed, hp):
             print(file)
             return None
 
+    c1 = max_lengths[dataset]
     lei_dir = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_encoder_generator_human/direct/RANDOM_SEED={seed}/human_supervision={hp}/top_k_rationale/direct/test_metrics.json",
-    ) if hp != 0.0 else os.path.join(
-        args.output_dir,
-        f"{dataset}/bert_encoder_generator/direct/RANDOM_SEED={seed}/top_k_rationale/direct/test_metrics.json",
+        f"{dataset}/bert_encoder_generator_human/random_seed_variance/RANDOM_SEED={seed}/human_supervision={hp}/top_k_rationale/{c1}/test_metrics.json",
     )
 
     fresh_dir = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_classification/direct/RANDOM_SEED={seed}/{saliency[dataset]}_saliency/max_length_rationale/direct/human_supervision={hp}/model_b/metrics.json",
+        f"{dataset}/bert_classification/random_seed_variance/RANDOM_SEED={seed}/{saliency[dataset]}_saliency/max_length_rationale/{c1}/human_supervision={hp}/model_b/metrics.json",
     )
 
     return get_validation_metric(lei_dir), get_validation_metric(fresh_dir)
