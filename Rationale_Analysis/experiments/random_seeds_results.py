@@ -26,19 +26,19 @@ def main_lei(args):
             str(defaults[d]["MAX_LENGTH_RATIO"]),
             "random_seed_variance",
             "RANDOM_SEED=" + str(seed),
-            r + "_rationale",
+            r + "_thresholder",
             str(defaults[d]["MAX_LENGTH_RATIO"]),
         )
 
         metrics_file_direct = os.path.join(path, "test_metrics.json")
         if os.path.isfile(metrics_file_direct):
             metrics = json.load(open(metrics_file_direct))["validation_metric"]
-            values.append({"dataset": d, "rationale": r, "seed": seed, "value": metrics})
+            values.append({"dataset": d, "thresholder": r, "seed": seed, "value": metrics})
         else :
             print(metrics_file_direct)
 
     values = pd.DataFrame(values)
-    values_g = values.groupby(["dataset", "rationale"]).agg(
+    values_g = values.groupby(["dataset", "thresholder"]).agg(
         lambda x: "{:0.2f}".format(np.median(x))
         + " ("
         + "{:0.2f}".format(np.min(x))
