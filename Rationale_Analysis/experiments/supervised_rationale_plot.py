@@ -38,12 +38,12 @@ def get_new_type(args, dataset, seed, hp):
     c1 = max_lengths[dataset]
     lei_dir = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_encoder_generator_human/random_seed_variance/RANDOM_SEED={seed}/human_supervision={hp}/top_k_rationale/{c1}/test_metrics.json",
+        f"{dataset}/bert_encoder_generator_human/{c1}/random_seed_variance/RANDOM_SEED={seed}/human_supervision={hp}/top_k_thresholder/{c1}/test_metrics.json",
     )
 
     fresh_dir = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_classification/random_seed_variance/RANDOM_SEED={seed}/{saliency[dataset]}_saliency/max_length_rationale/{c1}/human_supervision={hp}/model_b/metrics.json",
+        f"{dataset}/bert_classification/random_seed_variance/RANDOM_SEED={seed}/{saliency[dataset]}_saliency/max_length_thresholder/{c1}/human_supervision={hp}/model_b/metrics.json",
     )
 
     return get_validation_metric(lei_dir), get_validation_metric(fresh_dir)

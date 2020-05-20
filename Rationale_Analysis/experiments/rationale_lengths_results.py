@@ -44,22 +44,22 @@ def get_metrics(args, dataset, seed):
     c1, c2 = cut_point_thresh[dataset]
     lei_dir_c1 = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_encoder_generator/{c1}/random_seed_variance/RANDOM_SEED={seed}/{lei_best[dataset]}_rationale/{c1}/test_metrics.json",
+        f"{dataset}/bert_encoder_generator/{c1}/random_seed_variance/RANDOM_SEED={seed}/{lei_best[dataset]}_thresholder/{c1}/test_metrics.json",
     )
     lei_dir_c2 = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_encoder_generator/{c2}/random_seed_variance/RANDOM_SEED={seed}/{lei_best[dataset]}_rationale/{c2}/test_metrics.json",
+        f"{dataset}/bert_encoder_generator/{c2}/random_seed_variance/RANDOM_SEED={seed}/{lei_best[dataset]}_thresholder/{c2}/test_metrics.json",
     )
 
     s, t = fresh_best[dataset]
 
     fresh_dir_c1 = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_classification/random_seed_variance/RANDOM_SEED={seed}/{s}_saliency/{t}_rationale/{c1}/model_b/metrics.json",
+        f"{dataset}/bert_classification/random_seed_variance/RANDOM_SEED={seed}/{s}_saliency/{t}_thresholder/{c1}/model_b/metrics.json",
     )
     fresh_dir_c2 = os.path.join(
         args.output_dir,
-        f"{dataset}/bert_classification/random_seed_variance/RANDOM_SEED={seed}/{s}_saliency/{t}_rationale/{c2}/model_b/metrics.json",
+        f"{dataset}/bert_classification/random_seed_variance/RANDOM_SEED={seed}/{s}_saliency/{t}_thresholder/{c2}/model_b/metrics.json",
     )
 
     def get_validation_metric(file):
