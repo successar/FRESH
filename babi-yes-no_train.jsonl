@@ -1,0 +1,1000 @@
+{"passage": "Mary moved to the bathroom . Sandra journeyed to the bedroom .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Mary moved to the bathroom . Sandra journeyed to the bedroom . Mary went back to the bedroom . Daniel went back to the hallway .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Mary moved to the bathroom . Sandra journeyed to the bedroom . Mary went back to the bedroom . Daniel went back to the hallway . Sandra went to the kitchen . Daniel went back to the bathroom .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Daniel went to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Sandra went to the garden .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Sandra got the football there . Mary went to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra got the football there . Mary went to the bedroom . Daniel got the apple there . Sandra travelled to the hallway .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra got the football there . Mary went to the bedroom . Daniel got the apple there . Sandra travelled to the hallway . Sandra moved to the garden . Mary travelled to the kitchen .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Daniel put down the apple .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra journeyed to the office .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Sandra went back to the hallway . Sandra moved to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra went back to the hallway . Sandra moved to the office . Mary moved to the hallway . Daniel journeyed to the garden .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Sandra went back to the hallway . Sandra moved to the office . Mary moved to the hallway . Daniel journeyed to the garden . Mary journeyed to the office . Mary went back to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary moved to the garden .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "John journeyed to the bathroom .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Sandra moved to the office . John went back to the garden .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra moved to the office . John went back to the garden . Sandra went to the hallway . Sandra went to the kitchen .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra moved to the office . John went back to the garden . Sandra went to the hallway . Sandra went to the kitchen . Mary went to the office . Sandra got the apple there .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary journeyed to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Mary went to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Daniel got the apple there . John picked up the football there . Daniel left the apple . Daniel moved to the kitchen .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Daniel got the apple there . John picked up the football there . Daniel left the apple . Daniel moved to the kitchen . Sandra went back to the bathroom . Sandra grabbed the apple there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "John got the football there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra left the apple .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Sandra picked up the apple there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Sandra journeyed to the garden . Sandra went back to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra journeyed to the garden . Sandra went back to the bedroom . Daniel took the apple there . Sandra travelled to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra journeyed to the garden . Sandra went back to the bedroom . Daniel took the apple there . Sandra travelled to the office . John went to the hallway . Sandra moved to the kitchen .", "question": "Is John in the office ?", "label": false}
+{"passage": "Daniel went back to the bedroom .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra went to the bedroom .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "John went to the bathroom . Sandra took the football there .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "John went to the bathroom . Sandra took the football there . Mary journeyed to the kitchen . John journeyed to the bedroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John went to the bathroom . Sandra took the football there . Mary journeyed to the kitchen . John journeyed to the bedroom . John took the apple there . John left the apple .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Sandra dropped the football .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Daniel went back to the kitchen .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Sandra went to the garden . Sandra grabbed the milk there .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Sandra went to the garden . Sandra grabbed the milk there . Mary moved to the office . Mary went to the garden .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Sandra went to the garden . Sandra grabbed the milk there . Mary moved to the office . Mary went to the garden . Daniel went back to the office . Mary journeyed to the bedroom .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Sandra journeyed to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Mary journeyed to the hallway .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Sandra grabbed the football there . Sandra went back to the hallway .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Sandra grabbed the football there . Sandra went back to the hallway . Mary journeyed to the kitchen . Mary moved to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Sandra grabbed the football there . Sandra went back to the hallway . Mary journeyed to the kitchen . Mary moved to the office . John moved to the kitchen . Sandra put down the football there .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John travelled to the hallway .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Mary travelled to the kitchen .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Daniel journeyed to the bedroom . John moved to the bedroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel journeyed to the bedroom . John moved to the bedroom . Daniel took the apple there . Mary moved to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Daniel journeyed to the bedroom . John moved to the bedroom . Daniel took the apple there . Mary moved to the office . Sandra went to the office . Daniel went to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Sandra journeyed to the kitchen .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Daniel took the milk there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary went back to the bathroom . Daniel went to the office .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Mary went back to the bathroom . Daniel went to the office . Mary got the milk there . Sandra travelled to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Mary went back to the bathroom . Daniel went to the office . Mary got the milk there . Sandra travelled to the bathroom . Mary went back to the bedroom . Mary picked up the apple there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Mary discarded the apple .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Mary took the apple there .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Daniel journeyed to the hallway . Mary went back to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Daniel journeyed to the hallway . Mary went back to the kitchen . John moved to the hallway . John picked up the apple there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Daniel journeyed to the hallway . Mary went back to the kitchen . John moved to the hallway . John picked up the apple there . Daniel moved to the bathroom . John went to the garden .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "John dropped the apple .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Sandra left the apple .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John journeyed to the hallway . Sandra took the football there .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John journeyed to the hallway . Sandra took the football there . John journeyed to the bathroom . John journeyed to the office .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John journeyed to the hallway . Sandra took the football there . John journeyed to the bathroom . John journeyed to the office . Daniel journeyed to the hallway . Sandra discarded the football there .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John picked up the apple there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary journeyed to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the bathroom . Sandra took the apple there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the bathroom . Sandra took the apple there . Sandra picked up the football there . John journeyed to the bathroom .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the bathroom . Sandra took the apple there . Sandra picked up the football there . John journeyed to the bathroom . Mary went back to the bedroom . John moved to the kitchen .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Sandra took the milk there .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra left the apple there .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John went back to the hallway . Daniel travelled to the hallway .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "John went back to the hallway . Daniel travelled to the hallway . Daniel picked up the milk there . Daniel left the milk .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "John went back to the hallway . Daniel travelled to the hallway . Daniel picked up the milk there . Daniel left the milk . Daniel went to the bedroom . Daniel went back to the hallway .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "John picked up the football there .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel moved to the bedroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary got the football there . Daniel travelled to the bedroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary got the football there . Daniel travelled to the bedroom . Sandra got the milk there . Sandra put down the milk .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Mary got the football there . Daniel travelled to the bedroom . Sandra got the milk there . Sandra put down the milk . Sandra journeyed to the office . Daniel went back to the kitchen .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Mary left the football .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "John journeyed to the kitchen .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Sandra went back to the office . Mary journeyed to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra went back to the office . Mary journeyed to the bedroom . Sandra got the football there . Sandra put down the football .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra went back to the office . Mary journeyed to the bedroom . Sandra got the football there . Sandra put down the football . John went back to the office . Mary grabbed the milk there .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John went to the bedroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Daniel went back to the bathroom .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra went to the kitchen . Sandra travelled to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra went to the kitchen . Sandra travelled to the bathroom . Daniel went back to the bedroom . Mary journeyed to the garden .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra went to the kitchen . Sandra travelled to the bathroom . Daniel went back to the bedroom . Mary journeyed to the garden . Mary went back to the office . Daniel went back to the bathroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary went back to the garden .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Mary moved to the bathroom .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "John travelled to the garden . Sandra travelled to the garden .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "John travelled to the garden . Sandra travelled to the garden . Mary moved to the bedroom . Mary travelled to the kitchen .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John travelled to the garden . Sandra travelled to the garden . Mary moved to the bedroom . Mary travelled to the kitchen . John went to the office . John grabbed the milk there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra got the football there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Sandra put down the football .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel grabbed the apple there . Daniel went to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel grabbed the apple there . Daniel went to the bedroom . John moved to the garden . Sandra journeyed to the office .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Daniel grabbed the apple there . Daniel went to the bedroom . John moved to the garden . Sandra journeyed to the office . Daniel put down the apple . Mary went to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Sandra went back to the garden .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Daniel went to the office .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Mary travelled to the bedroom . Daniel took the football there .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary travelled to the bedroom . Daniel took the football there . Daniel went to the bathroom . Daniel went back to the kitchen .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary travelled to the bedroom . Daniel took the football there . Daniel went to the bathroom . Daniel went back to the kitchen . Mary travelled to the garden . Mary went back to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary travelled to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John journeyed to the bedroom .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Sandra got the football there . Daniel took the apple there . Mary travelled to the office . Daniel went back to the bathroom .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Sandra got the football there . Daniel took the apple there . Mary travelled to the office . Daniel went back to the bathroom . Sandra journeyed to the office . Mary grabbed the milk there .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "John went to the bedroom .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra got the milk there .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Sandra moved to the kitchen .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John went to the hallway . Sandra picked up the apple there .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "John went to the hallway . Sandra picked up the apple there . Daniel moved to the garden . Mary journeyed to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John went to the hallway . Sandra picked up the apple there . Daniel moved to the garden . Mary journeyed to the bedroom . Mary moved to the bathroom . Sandra left the apple .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Daniel moved to the office .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "John moved to the bedroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Daniel travelled to the bathroom . John got the apple there .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel travelled to the bathroom . John got the apple there . John put down the apple . Mary travelled to the kitchen .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Daniel travelled to the bathroom . John got the apple there . John put down the apple . Mary travelled to the kitchen . John grabbed the apple there . Daniel travelled to the hallway .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Daniel travelled to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Sandra went to the bedroom .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "John moved to the office . Mary got the football there .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John moved to the office . Mary got the football there . Sandra went to the bedroom . Mary discarded the football .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "John moved to the office . Mary got the football there . Sandra went to the bedroom . Mary discarded the football . Sandra picked up the football there . John journeyed to the bathroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Sandra moved to the hallway .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John moved to the kitchen .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Mary went to the kitchen . Mary travelled to the office .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary went to the kitchen . Mary travelled to the office . Daniel went to the hallway . Daniel took the football there .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Mary went to the kitchen . Mary travelled to the office . Daniel went to the hallway . Daniel took the football there . Sandra travelled to the office . Daniel dropped the football .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Daniel went back to the kitchen .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Sandra went back to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "John took the apple there . Sandra moved to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John took the apple there . Sandra moved to the bedroom . Mary went to the office . John discarded the apple .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "John took the apple there . Sandra moved to the bedroom . Mary went to the office . John discarded the apple . John picked up the apple there . John went to the office .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Sandra went back to the hallway .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John went back to the kitchen .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Sandra travelled to the bedroom . Daniel journeyed to the hallway .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Sandra travelled to the bedroom . Daniel journeyed to the hallway . Sandra picked up the apple there . Mary went to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Sandra travelled to the bedroom . Daniel journeyed to the hallway . Sandra picked up the apple there . Mary went to the bathroom . Sandra took the football there . John travelled to the kitchen .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Mary discarded the milk .", "question": "Is John in the office ?", "label": false}
+{"passage": "Sandra discarded the football .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John went to the garden . Daniel got the apple there .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John went to the garden . Daniel got the apple there . John picked up the football there . John moved to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "John went to the garden . Daniel got the apple there . John picked up the football there . John moved to the office . John moved to the garden . Daniel journeyed to the garden .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Daniel went to the bathroom .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John discarded the football .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Mary went to the kitchen . Daniel travelled to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Mary went to the kitchen . Daniel travelled to the bedroom . Daniel grabbed the apple there . John moved to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Mary went to the kitchen . Daniel travelled to the bedroom . Daniel grabbed the apple there . John moved to the bedroom . Sandra travelled to the bedroom . Daniel journeyed to the hallway .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary travelled to the office .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Sandra moved to the hallway .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Mary moved to the office . Daniel went to the garden .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Mary moved to the office . Daniel went to the garden . Daniel picked up the football there . Sandra went to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary moved to the office . Daniel went to the garden . Daniel picked up the football there . Sandra went to the kitchen . Daniel left the football . Mary went back to the bedroom .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary travelled to the bathroom .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John journeyed to the kitchen .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Sandra travelled to the office . Daniel moved to the hallway .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra travelled to the office . Daniel moved to the hallway . Mary took the apple there . Sandra travelled to the garden .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Sandra travelled to the office . Daniel moved to the hallway . Mary took the apple there . Sandra travelled to the garden . John journeyed to the bathroom . Daniel went back to the office .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Sandra travelled to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Mary left the apple .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "John got the football there . Sandra went to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "John got the football there . Sandra went to the kitchen . John went to the bathroom . John went back to the garden .", "question": "Is John in the office ?", "label": false}
+{"passage": "John got the football there . Sandra went to the kitchen . John went to the bathroom . John went back to the garden . John moved to the bathroom . John went back to the garden .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John took the football there .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John journeyed to the bedroom .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Daniel journeyed to the hallway . Mary moved to the garden .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Daniel journeyed to the hallway . Mary moved to the garden . Sandra travelled to the bedroom . Sandra journeyed to the hallway .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Daniel journeyed to the hallway . Mary moved to the garden . Sandra travelled to the bedroom . Sandra journeyed to the hallway . John journeyed to the kitchen . Sandra journeyed to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Sandra picked up the football there .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary went back to the hallway .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Sandra moved to the hallway . Sandra got the apple there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra moved to the hallway . Sandra got the apple there . Mary got the milk there . Mary put down the milk .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra moved to the hallway . Sandra got the apple there . Mary got the milk there . Mary put down the milk . Mary went to the office . Sandra dropped the apple .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John moved to the bedroom .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra moved to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Mary travelled to the hallway . Mary journeyed to the garden .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary travelled to the hallway . Mary journeyed to the garden . Mary moved to the kitchen . John went back to the bathroom .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Mary travelled to the hallway . Mary journeyed to the garden . Mary moved to the kitchen . John went back to the bathroom . John journeyed to the bedroom . Sandra got the football there .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary travelled to the garden .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Mary picked up the milk there .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Mary moved to the kitchen . John journeyed to the hallway .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary moved to the kitchen . John journeyed to the hallway . John went to the bedroom . John moved to the kitchen .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Mary moved to the kitchen . John journeyed to the hallway . John went to the bedroom . John moved to the kitchen . Mary went back to the bathroom . Mary went back to the hallway .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Daniel travelled to the kitchen .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Sandra travelled to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "John moved to the garden . Daniel moved to the kitchen .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "John moved to the garden . Daniel moved to the kitchen . Sandra travelled to the bathroom . Sandra went back to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "John moved to the garden . Daniel moved to the kitchen . Sandra travelled to the bathroom . Sandra went back to the bedroom . Sandra moved to the hallway . Daniel picked up the football there .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "John went to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Mary journeyed to the garden .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "John journeyed to the office . John journeyed to the bedroom .", "question": "Is John in the office ?", "label": false}
+{"passage": "John journeyed to the office . John journeyed to the bedroom . Mary went to the bedroom . Daniel went to the office .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John journeyed to the office . John journeyed to the bedroom . Mary went to the bedroom . Daniel went to the office . Mary travelled to the garden . John went to the office .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Daniel moved to the garden .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Daniel went to the kitchen .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary moved to the kitchen . Sandra moved to the office .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Mary moved to the kitchen . Sandra moved to the office . John journeyed to the office . Daniel went to the bedroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary moved to the kitchen . Sandra moved to the office . John journeyed to the office . Daniel went to the bedroom . John journeyed to the kitchen . Mary moved to the office .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Mary went back to the kitchen .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John discarded the milk .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Mary travelled to the bathroom . John went back to the kitchen .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Mary travelled to the bathroom . John went back to the kitchen . John journeyed to the garden . Daniel got the milk there .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Mary travelled to the bathroom . John went back to the kitchen . John journeyed to the garden . Daniel got the milk there . John went back to the hallway . Daniel travelled to the bedroom .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Sandra went to the bedroom .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "John travelled to the bathroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra moved to the bedroom . Daniel moved to the office .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Sandra moved to the bedroom . Daniel moved to the office . John journeyed to the office . Mary went to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Sandra moved to the bedroom . Daniel moved to the office . John journeyed to the office . Mary went to the office . John moved to the garden . Sandra took the apple there .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Sandra discarded the apple .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John went back to the hallway .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Sandra got the milk there . John went back to the kitchen .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Sandra got the milk there . John went back to the kitchen . Mary got the apple there . Sandra journeyed to the bedroom .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Sandra got the milk there . John went back to the kitchen . Mary got the apple there . Sandra journeyed to the bedroom . Sandra grabbed the football there . Sandra discarded the football .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Daniel went to the hallway .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Daniel journeyed to the kitchen .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John moved to the kitchen . Daniel went back to the office .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John moved to the kitchen . Daniel went back to the office . Daniel travelled to the bathroom . Daniel took the apple there .", "question": "Is John in the office ?", "label": false}
+{"passage": "John moved to the kitchen . Daniel went back to the office . Daniel travelled to the bathroom . Daniel took the apple there . Sandra went to the hallway . Daniel discarded the apple .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "John travelled to the kitchen .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Daniel grabbed the apple there .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "John grabbed the milk there . Daniel went back to the kitchen .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "John grabbed the milk there . Daniel went back to the kitchen . Sandra grabbed the apple there . John dropped the milk .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "John grabbed the milk there . Daniel went back to the kitchen . Sandra grabbed the apple there . John dropped the milk . Sandra put down the apple . John grabbed the milk there .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra went back to the garden .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Mary went to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Daniel went to the garden . Mary moved to the bedroom .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Daniel went to the garden . Mary moved to the bedroom . Sandra travelled to the hallway . Sandra travelled to the office .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Daniel went to the garden . Mary moved to the bedroom . Sandra travelled to the hallway . Sandra travelled to the office . Mary picked up the apple there . Mary picked up the football there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra journeyed to the kitchen .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra moved to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Mary went back to the hallway . John grabbed the apple there .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary went back to the hallway . John grabbed the apple there . John put down the apple . John took the apple there .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary went back to the hallway . John grabbed the apple there . John put down the apple . John took the apple there . John put down the apple there . Mary moved to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Sandra went back to the garden .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary took the milk there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "John got the apple there . Mary grabbed the milk there . Sandra went to the hallway . John moved to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "John got the apple there . Mary grabbed the milk there . Sandra went to the hallway . John moved to the hallway . Daniel picked up the football there . Daniel put down the football there .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "John moved to the bathroom .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Mary went to the hallway .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John left the football .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary travelled to the garden . Daniel moved to the bathroom .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary travelled to the garden . Daniel moved to the bathroom . Daniel travelled to the office . Daniel travelled to the garden .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Mary travelled to the garden . Daniel moved to the bathroom . Daniel travelled to the office . Daniel travelled to the garden . Sandra went back to the kitchen . Sandra moved to the bathroom .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Sandra went to the bedroom .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel went back to the bathroom .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Sandra travelled to the bathroom . John took the football there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra travelled to the bathroom . John took the football there . Mary travelled to the kitchen . John put down the football .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Sandra travelled to the bathroom . John took the football there . Mary travelled to the kitchen . John put down the football . Daniel went to the bedroom . John picked up the football there .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Mary went back to the office .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Sandra went to the garden .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "John travelled to the garden . Mary went to the bathroom .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John travelled to the garden . Mary went to the bathroom . Sandra went to the hallway . Daniel travelled to the hallway .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John travelled to the garden . Mary went to the bathroom . Sandra went to the hallway . Daniel travelled to the hallway . John journeyed to the office . Sandra moved to the bedroom .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Mary went to the bedroom .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Mary travelled to the kitchen .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel moved to the hallway . Sandra got the apple there .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Daniel moved to the hallway . Sandra got the apple there . Sandra left the apple . Mary travelled to the bathroom .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel moved to the hallway . Sandra got the apple there . Sandra left the apple . Mary travelled to the bathroom . Mary took the football there . Mary discarded the football .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Mary picked up the football there .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "John went back to the bedroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Daniel moved to the bathroom . Daniel picked up the football there .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Daniel moved to the bathroom . Daniel picked up the football there . Mary went to the kitchen . John picked up the milk there .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel moved to the bathroom . Daniel picked up the football there . Mary went to the kitchen . John picked up the milk there . Mary journeyed to the bedroom . Sandra journeyed to the office .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra journeyed to the garden .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "John dropped the milk .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Daniel went to the kitchen . Daniel grabbed the football there .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel went to the kitchen . Daniel grabbed the football there . John went to the bathroom . Daniel left the football .", "question": "Is John in the office ?", "label": false}
+{"passage": "Daniel went to the kitchen . Daniel grabbed the football there . John went to the bathroom . Daniel left the football . Mary went back to the office . Daniel picked up the football there .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Mary moved to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Daniel went back to the bathroom .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary journeyed to the bathroom . John moved to the hallway .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Mary journeyed to the bathroom . John moved to the hallway . Sandra picked up the apple there . Daniel travelled to the garden .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Mary journeyed to the bathroom . John moved to the hallway . Sandra picked up the apple there . Daniel travelled to the garden . John went to the bedroom . John journeyed to the bathroom .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Daniel journeyed to the office .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "John moved to the kitchen .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary grabbed the milk there . Sandra picked up the apple there . John travelled to the kitchen . Sandra put down the apple there .", "question": "Is John in the office ?", "label": false}
+{"passage": "Mary grabbed the milk there . Sandra picked up the apple there . John travelled to the kitchen . Sandra put down the apple there . Sandra took the apple there . Daniel went to the hallway .", "question": "Is John in the office ?", "label": false}
+{"passage": "Sandra travelled to the bedroom .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary dropped the milk .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel went back to the garden .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel travelled to the bedroom . Mary went to the hallway .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel travelled to the bedroom . Mary went to the hallway . Daniel went to the hallway . Mary travelled to the kitchen .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel travelled to the bedroom . Mary went to the hallway . Daniel went to the hallway . Mary travelled to the kitchen . John picked up the football there . Sandra moved to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "John dropped the football .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra journeyed to the bedroom .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John went to the kitchen . Mary went back to the garden .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John went to the kitchen . Mary went back to the garden . Daniel went to the office . Sandra travelled to the hallway .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "John went to the kitchen . Mary went back to the garden . Daniel went to the office . Sandra travelled to the hallway . Mary travelled to the office . Sandra went back to the garden .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Sandra got the apple there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra grabbed the apple there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra travelled to the office . Mary grabbed the milk there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra travelled to the office . Mary grabbed the milk there . Mary travelled to the garden . Sandra went to the bathroom .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Sandra travelled to the office . Mary grabbed the milk there . Mary travelled to the garden . Sandra went to the bathroom . John went to the bedroom . Mary picked up the football there .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "John journeyed to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "Mary picked up the football there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Daniel picked up the apple there . Daniel discarded the apple . John got the apple there . Mary went to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Daniel picked up the apple there . Daniel discarded the apple . John got the apple there . Mary went to the bathroom . Mary journeyed to the garden . Daniel journeyed to the bathroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel went to the bedroom .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "John dropped the milk .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John dropped the apple there .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel took the milk there . Sandra went back to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel took the milk there . Sandra went back to the bedroom . Mary travelled to the bedroom . John moved to the hallway .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Daniel took the milk there . Sandra went back to the bedroom . Mary travelled to the bedroom . John moved to the hallway . Daniel moved to the bedroom . Daniel went back to the kitchen .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Daniel picked up the football there .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Daniel put down the milk there .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Daniel picked up the football there . Daniel discarded the football . Mary grabbed the football there . Sandra moved to the garden .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Daniel picked up the football there . Daniel discarded the football . Mary grabbed the football there . Sandra moved to the garden . Daniel travelled to the kitchen . Daniel went to the bathroom .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel journeyed to the kitchen .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Daniel journeyed to the hallway .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Daniel took the milk there .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "John travelled to the kitchen . Sandra travelled to the garden .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "John travelled to the kitchen . Sandra travelled to the garden . Sandra travelled to the kitchen . Sandra went to the office .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John travelled to the kitchen . Sandra travelled to the garden . Sandra travelled to the kitchen . Sandra went to the office . Daniel travelled to the bedroom . Daniel journeyed to the kitchen .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra travelled to the bathroom .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Sandra picked up the milk there .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "John went back to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "John went back to the office . Mary went to the kitchen . John left the apple there .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "John went back to the office . Mary went to the kitchen . John left the apple there . John went back to the kitchen . Daniel discarded the milk .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "John went back to the office . Mary went to the kitchen . John left the apple there . John went back to the kitchen . Daniel discarded the milk . Daniel got the milk there . Sandra moved to the garden .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John went back to the office . Mary went to the kitchen . John left the apple there . John went back to the kitchen . Daniel discarded the milk . Daniel got the milk there . Sandra moved to the garden . Daniel took the apple there . Sandra went back to the kitchen .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Mary went to the hallway . Mary grabbed the apple there .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary went to the hallway . Mary grabbed the apple there . Daniel went back to the hallway . Mary went back to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Mary went to the hallway . Mary grabbed the apple there . Daniel went back to the hallway . Mary went back to the bathroom . John journeyed to the bedroom . Sandra travelled to the office .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "John moved to the bathroom .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "John moved to the garden .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Mary moved to the garden . Sandra moved to the garden .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary moved to the garden . Sandra moved to the garden . John moved to the hallway . John travelled to the office .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary moved to the garden . Sandra moved to the garden . John moved to the hallway . John travelled to the office . Sandra took the football there . John moved to the bathroom .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Sandra went to the office .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra dropped the apple there .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John took the football there . Daniel journeyed to the hallway .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "John took the football there . Daniel journeyed to the hallway . Mary went to the garden . John left the football .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "John took the football there . Daniel journeyed to the hallway . Mary went to the garden . John left the football . Mary journeyed to the office . Daniel travelled to the garden .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Sandra moved to the garden .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "John dropped the milk .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Mary journeyed to the bedroom . Sandra took the apple there .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Mary journeyed to the bedroom . Sandra took the apple there . Mary moved to the garden . Mary moved to the bathroom .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary journeyed to the bedroom . Sandra took the apple there . Mary moved to the garden . Mary moved to the bathroom . Sandra got the football there . Sandra travelled to the kitchen .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Daniel moved to the kitchen .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Sandra went back to the hallway .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Sandra went back to the bathroom . Mary journeyed to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Sandra went back to the bathroom . Mary journeyed to the office . Sandra went back to the hallway . Sandra got the football there .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Sandra went back to the bathroom . Mary journeyed to the office . Sandra went back to the hallway . Sandra got the football there . Mary grabbed the milk there . Mary went to the kitchen .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra left the football .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Sandra travelled to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Mary picked up the football there . Sandra journeyed to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Mary picked up the football there . Sandra journeyed to the office . Daniel travelled to the bedroom . Mary left the football .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary picked up the football there . Sandra journeyed to the office . Daniel travelled to the bedroom . Mary left the football . Mary took the football there . Daniel travelled to the office .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary went back to the bedroom .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John went back to the hallway .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the hallway . Daniel journeyed to the kitchen .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Sandra went back to the hallway . Daniel journeyed to the kitchen . Daniel grabbed the apple there . Daniel went back to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the hallway . Daniel journeyed to the kitchen . Daniel grabbed the apple there . Daniel went back to the bathroom . Daniel put down the apple . Daniel picked up the apple there .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel dropped the apple .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel picked up the apple there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra travelled to the kitchen . Daniel went back to the kitchen .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra travelled to the kitchen . Daniel went back to the kitchen . Sandra went back to the office . Mary got the milk there .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra travelled to the kitchen . Daniel went back to the kitchen . Sandra went back to the office . Mary got the milk there . Mary left the milk there . John travelled to the bathroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "John picked up the apple there .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Sandra put down the football .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Sandra moved to the hallway . Sandra went to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra moved to the hallway . Sandra went to the office . Daniel grabbed the football there . Sandra travelled to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Sandra moved to the hallway . Sandra went to the office . Daniel grabbed the football there . Sandra travelled to the bedroom . Daniel went back to the office . Daniel discarded the football there .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "John went back to the bathroom .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Mary travelled to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra went to the office . Mary picked up the football there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra went to the office . Mary picked up the football there . Sandra went back to the kitchen . Sandra journeyed to the garden .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Sandra went to the office . Mary picked up the football there . Sandra went back to the kitchen . Sandra journeyed to the garden . Sandra journeyed to the office . John went back to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Mary discarded the football .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Mary grabbed the football there .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Sandra went to the office . John moved to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Sandra went to the office . John moved to the hallway . Sandra went back to the kitchen . John went to the garden .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Sandra went to the office . John moved to the hallway . Sandra went back to the kitchen . John went to the garden . John travelled to the office . Sandra travelled to the office .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Mary went back to the kitchen .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Sandra moved to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra went to the office . Daniel picked up the milk there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra went to the office . Daniel picked up the milk there . John travelled to the bedroom . Daniel put down the milk .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Sandra went to the office . Daniel picked up the milk there . John travelled to the bedroom . Daniel put down the milk . John picked up the milk there . Mary went back to the kitchen .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John left the football .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "John picked up the apple there .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra went to the kitchen . John moved to the office .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Sandra went to the kitchen . John moved to the office . Daniel went back to the kitchen . Sandra travelled to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Sandra went to the kitchen . John moved to the office . Daniel went back to the kitchen . Sandra travelled to the hallway . Mary grabbed the apple there . Daniel picked up the milk there .", "question": "Is John in the office ?", "label": true}
+{"passage": "Sandra travelled to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "John moved to the hallway .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Mary took the milk there . Mary discarded the milk . Sandra moved to the bedroom . Mary journeyed to the bathroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary took the milk there . Mary discarded the milk . Sandra moved to the bedroom . Mary journeyed to the bathroom . John travelled to the garden . John went to the kitchen .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "John journeyed to the bedroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary left the football .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John got the football there .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Daniel went back to the hallway . John got the apple there .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel went back to the hallway . John got the apple there . John dropped the apple . Mary got the apple there .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel went back to the hallway . John got the apple there . John dropped the apple . Mary got the apple there . Daniel moved to the bedroom . Sandra travelled to the hallway .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel moved to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Mary dropped the apple .", "question": "Is John in the office ?", "label": true}
+{"passage": "Mary picked up the apple there . Mary dropped the apple . Daniel went to the bathroom . Daniel journeyed to the garden .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Mary picked up the apple there . Mary dropped the apple . Daniel went to the bathroom . Daniel journeyed to the garden . Daniel picked up the football there . Daniel discarded the football .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Sandra went back to the bedroom .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Daniel journeyed to the kitchen .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra journeyed to the kitchen .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel took the apple there . Daniel dropped the apple there . Mary moved to the bathroom . Daniel went back to the office .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Daniel took the apple there . Daniel dropped the apple there . Mary moved to the bathroom . Daniel went back to the office . Sandra moved to the bathroom . Daniel took the football there .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary moved to the kitchen .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "John went to the office .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "John journeyed to the hallway .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Daniel travelled to the garden . Sandra went back to the hallway .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Daniel travelled to the garden . Sandra went back to the hallway . John grabbed the football there . Sandra travelled to the office .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Daniel travelled to the garden . Sandra went back to the hallway . John grabbed the football there . Sandra travelled to the office . Sandra went to the bedroom . Sandra journeyed to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "John went to the hallway .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Mary took the milk there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Daniel moved to the office . Daniel travelled to the kitchen .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Daniel moved to the office . Daniel travelled to the kitchen . John travelled to the bathroom . John went back to the office .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Daniel moved to the office . Daniel travelled to the kitchen . John travelled to the bathroom . John went back to the office . Daniel moved to the bathroom . Daniel travelled to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "John travelled to the garden .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "John went back to the office .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John travelled to the bedroom . Mary got the football there .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John travelled to the bedroom . Mary got the football there . Mary put down the football . John took the milk there .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "John travelled to the bedroom . Mary got the football there . Mary put down the football . John took the milk there . Sandra travelled to the garden . John left the milk .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary picked up the apple there .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Daniel went back to the bedroom .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel got the apple there . John went back to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Daniel got the apple there . John went back to the hallway . Daniel journeyed to the hallway . John moved to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "Daniel got the apple there . John went back to the hallway . Daniel journeyed to the hallway . John moved to the office . Daniel dropped the apple there . Mary went to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Mary took the milk there .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Daniel took the football there .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Daniel went to the office . Mary took the apple there .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Daniel went to the office . Mary took the apple there . Mary journeyed to the kitchen . John got the football there .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Daniel went to the office . Mary took the apple there . Mary journeyed to the kitchen . John got the football there . Mary put down the apple . Mary grabbed the apple there .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Mary went back to the office .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John went to the bathroom .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "John travelled to the garden . Daniel journeyed to the hallway .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John travelled to the garden . Daniel journeyed to the hallway . Mary travelled to the bedroom . John moved to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "John travelled to the garden . Daniel journeyed to the hallway . Mary travelled to the bedroom . John moved to the office . Mary moved to the garden . Daniel went back to the bedroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Sandra took the football there .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "John put down the milk .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "John took the football there . John went back to the hallway .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John took the football there . John went back to the hallway . Mary moved to the bathroom . John moved to the bedroom .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "John took the football there . John went back to the hallway . Mary moved to the bathroom . John moved to the bedroom . Mary went back to the kitchen . Daniel went to the garden .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John discarded the football .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Mary moved to the bedroom .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Mary grabbed the football there . Mary travelled to the office .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Mary grabbed the football there . Mary travelled to the office . John went back to the hallway . John travelled to the bedroom .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Mary grabbed the football there . Mary travelled to the office . John went back to the hallway . John travelled to the bedroom . Mary took the apple there . Mary left the apple .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Daniel moved to the hallway .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Sandra went back to the bedroom .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Mary went to the hallway . John travelled to the garden .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary went to the hallway . John travelled to the garden . John went back to the bedroom . Daniel journeyed to the office .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary went to the hallway . John travelled to the garden . John went back to the bedroom . Daniel journeyed to the office . Sandra travelled to the kitchen . Sandra travelled to the office .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "John travelled to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Daniel moved to the hallway .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "John travelled to the garden . John moved to the bedroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John travelled to the garden . John moved to the bedroom . Mary travelled to the office . Daniel picked up the apple there .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John travelled to the garden . John moved to the bedroom . Mary travelled to the office . Daniel picked up the apple there . John went back to the garden . Mary went back to the kitchen .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Mary went back to the office .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John grabbed the football there .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Sandra went to the kitchen . Sandra went back to the bathroom .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra went to the kitchen . Sandra went back to the bathroom . Daniel journeyed to the hallway . Mary journeyed to the office .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra went to the kitchen . Sandra went back to the bathroom . Daniel journeyed to the hallway . Mary journeyed to the office . Mary moved to the garden . John took the football there .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "John moved to the kitchen .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Sandra journeyed to the bedroom .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Daniel picked up the football there . Mary travelled to the bedroom .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Daniel picked up the football there . Mary travelled to the bedroom . Sandra moved to the office . Mary journeyed to the bathroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Daniel picked up the football there . Mary travelled to the bedroom . Sandra moved to the office . Mary journeyed to the bathroom . Sandra travelled to the kitchen . Mary moved to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra moved to the bedroom .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Daniel went back to the bedroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary went to the office . John travelled to the bedroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary went to the office . John travelled to the bedroom . Mary went to the bedroom . Mary travelled to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Mary went to the office . John travelled to the bedroom . Mary went to the bedroom . Mary travelled to the bathroom . John moved to the hallway . Mary picked up the milk there .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "John journeyed to the bedroom .", "question": "Is John in the office ?", "label": false}
+{"passage": "Mary went to the office .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Daniel got the football there . Mary took the apple there . John travelled to the hallway . Daniel went back to the bathroom .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Daniel got the football there . Mary took the apple there . John travelled to the hallway . Daniel went back to the bathroom . Mary left the apple . Mary took the apple there .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Daniel took the football there .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Mary discarded the apple .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary picked up the apple there .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Daniel got the football there . Sandra went to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Daniel got the football there . Sandra went to the hallway . John moved to the hallway . Daniel travelled to the bathroom .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Daniel got the football there . Sandra went to the hallway . John moved to the hallway . Daniel travelled to the bathroom . Sandra picked up the apple there . John journeyed to the bedroom .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Sandra left the apple .", "question": "Is John in the office ?", "label": false}
+{"passage": "Sandra went back to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel moved to the bathroom . John picked up the apple there .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel moved to the bathroom . John picked up the apple there . Mary went back to the bedroom . Sandra journeyed to the kitchen .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Daniel moved to the bathroom . John picked up the apple there . Mary went back to the bedroom . Sandra journeyed to the kitchen . Sandra moved to the hallway . John went to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "John dropped the apple .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "John picked up the apple there .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John moved to the kitchen . Mary journeyed to the hallway .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John moved to the kitchen . Mary journeyed to the hallway . John moved to the office . Daniel moved to the bedroom .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "John moved to the kitchen . Mary journeyed to the hallway . John moved to the office . Daniel moved to the bedroom . Mary went to the garden . Daniel moved to the kitchen .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "John went to the bathroom .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Sandra travelled to the hallway .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Mary went back to the kitchen . John went to the bathroom .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Mary went back to the kitchen . John went to the bathroom . Mary got the milk there . Mary left the milk .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary went back to the kitchen . John went to the bathroom . Mary got the milk there . Mary left the milk . Mary took the milk there . Mary travelled to the hallway .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John put down the apple .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Sandra moved to the hallway .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel went to the bedroom . Sandra got the apple there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Daniel went to the bedroom . Sandra got the apple there . Daniel got the football there . John journeyed to the bathroom .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Daniel went to the bedroom . Sandra got the apple there . Daniel got the football there . John journeyed to the bathroom . Sandra went to the bathroom . Daniel put down the football .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra left the apple there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Mary travelled to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary travelled to the office . Daniel went back to the office .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Mary travelled to the office . Daniel went back to the office . Mary went to the hallway . Mary moved to the garden .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Mary travelled to the office . Daniel went back to the office . Mary went to the hallway . Mary moved to the garden . Daniel picked up the football there . Mary journeyed to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Sandra journeyed to the kitchen .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Daniel discarded the football there .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Daniel took the milk there . Sandra journeyed to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel took the milk there . Sandra journeyed to the bedroom . Daniel discarded the milk . Mary went to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Daniel took the milk there . Sandra journeyed to the bedroom . Daniel discarded the milk . Mary went to the bathroom . Mary travelled to the office . Sandra journeyed to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Mary took the milk there .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Daniel moved to the bathroom .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Mary took the milk there . Mary dropped the milk . John moved to the hallway . John moved to the bathroom .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Mary took the milk there . Mary dropped the milk . John moved to the hallway . John moved to the bathroom . Daniel went back to the hallway . Daniel took the milk there .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Daniel discarded the milk .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Daniel went to the garden .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Sandra grabbed the milk there .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Daniel grabbed the apple there . Sandra travelled to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel grabbed the apple there . Sandra travelled to the bedroom . Daniel dropped the apple there . Mary travelled to the bathroom .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Daniel grabbed the apple there . Sandra travelled to the bedroom . Daniel dropped the apple there . Mary travelled to the bathroom . Sandra went to the office . Daniel travelled to the garden .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Mary went back to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Daniel got the milk there .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Daniel picked up the apple there . John went back to the office .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Daniel picked up the apple there . John went back to the office . Daniel left the apple . John grabbed the milk there .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Daniel picked up the apple there . John went back to the office . Daniel left the apple . John grabbed the milk there . John went to the hallway . Mary journeyed to the kitchen .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Daniel discarded the apple there .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Mary put down the apple .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary travelled to the bedroom . Daniel travelled to the garden .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Mary travelled to the bedroom . Daniel travelled to the garden . Daniel journeyed to the kitchen . Daniel got the football there .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Mary travelled to the bedroom . Daniel travelled to the garden . Daniel journeyed to the kitchen . Daniel got the football there . Sandra journeyed to the bedroom . Mary went back to the garden .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Sandra went back to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Daniel picked up the milk there .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Sandra travelled to the bathroom . Sandra got the football there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra travelled to the bathroom . Sandra got the football there . Sandra discarded the football there . Sandra journeyed to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Sandra travelled to the bathroom . Sandra got the football there . Sandra discarded the football there . Sandra journeyed to the bedroom . John went back to the garden . Mary went to the bathroom .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John travelled to the hallway .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "John journeyed to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Sandra went back to the garden . Mary went back to the hallway .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Sandra went back to the garden . Mary went back to the hallway . Sandra journeyed to the bathroom . Mary travelled to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the garden . Mary went back to the hallway . Sandra journeyed to the bathroom . Mary travelled to the bedroom . Mary journeyed to the kitchen . Mary went to the office .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Sandra left the apple there .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Sandra discarded the apple .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "John took the football there . John went to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "John took the football there . John went to the hallway . John picked up the apple there . Sandra journeyed to the bathroom .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "John took the football there . John went to the hallway . John picked up the apple there . Sandra journeyed to the bathroom . John left the football . Sandra went to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "John dropped the apple .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Sandra put down the football .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Sandra grabbed the football there . Daniel journeyed to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Sandra grabbed the football there . Daniel journeyed to the bathroom . Mary travelled to the garden . Daniel went to the office .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Sandra grabbed the football there . Daniel journeyed to the bathroom . Mary travelled to the garden . Daniel went to the office . Daniel went back to the kitchen . Daniel went back to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "John went back to the kitchen .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "John travelled to the bathroom .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary grabbed the football there . Daniel travelled to the garden .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Mary grabbed the football there . Daniel travelled to the garden . John moved to the garden . Daniel journeyed to the bathroom .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Mary grabbed the football there . Daniel travelled to the garden . John moved to the garden . Daniel journeyed to the bathroom . Mary dropped the football . Mary picked up the football there .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Daniel picked up the apple there .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Daniel dropped the apple .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Sandra picked up the football there . Mary went to the garden .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Sandra picked up the football there . Mary went to the garden . Mary went back to the kitchen . Sandra moved to the office .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Sandra picked up the football there . Mary went to the garden . Mary went back to the kitchen . Sandra moved to the office . Sandra moved to the kitchen . Sandra put down the football .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Daniel went to the bedroom .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary travelled to the hallway .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "John took the apple there . Daniel travelled to the office .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "John took the apple there . Daniel travelled to the office . Mary took the milk there . John left the apple there .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "John took the apple there . Daniel travelled to the office . Mary took the milk there . John left the apple there . Daniel travelled to the hallway . Mary went to the hallway .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Mary put down the milk .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary picked up the apple there .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "John went to the bedroom . Mary took the apple there .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John went to the bedroom . Mary took the apple there . Mary journeyed to the hallway . Daniel got the milk there .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John went to the bedroom . Mary took the apple there . Mary journeyed to the hallway . Daniel got the milk there . Daniel travelled to the hallway . Daniel put down the milk .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "John picked up the milk there .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Sandra journeyed to the bedroom .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Sandra journeyed to the bathroom . Mary moved to the garden .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra journeyed to the bathroom . Mary moved to the garden . John went back to the kitchen . Sandra journeyed to the bedroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Sandra journeyed to the bathroom . Mary moved to the garden . John went back to the kitchen . Sandra journeyed to the bedroom . John travelled to the office . John took the apple there .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel went back to the office .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "John went back to the hallway .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Daniel travelled to the hallway . Mary went to the hallway .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Daniel travelled to the hallway . Mary went to the hallway . Daniel picked up the football there . Daniel journeyed to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel travelled to the hallway . Mary went to the hallway . Daniel picked up the football there . Daniel journeyed to the bedroom . Daniel went back to the bathroom . Sandra took the apple there .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Mary took the milk there .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Mary discarded the milk .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Daniel took the apple there . Sandra moved to the garden .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Daniel took the apple there . Sandra moved to the garden . Sandra grabbed the football there . Mary moved to the garden .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Daniel took the apple there . Sandra moved to the garden . Sandra grabbed the football there . Mary moved to the garden . John went to the garden . Daniel discarded the apple .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Sandra left the football .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary went to the garden .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Sandra travelled to the garden . Daniel travelled to the hallway .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Sandra travelled to the garden . Daniel travelled to the hallway . Mary travelled to the hallway . Sandra moved to the office .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Sandra travelled to the garden . Daniel travelled to the hallway . Mary travelled to the hallway . Sandra moved to the office . Daniel journeyed to the kitchen . Sandra went back to the bedroom .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Sandra travelled to the bathroom .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "John went back to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Mary went to the bedroom . Daniel travelled to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Mary went to the bedroom . Daniel travelled to the bedroom . Sandra journeyed to the garden . Daniel went back to the office .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Mary went to the bedroom . Daniel travelled to the bedroom . Sandra journeyed to the garden . Daniel went back to the office . Daniel travelled to the garden . Daniel went to the bathroom .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Sandra went back to the bedroom .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Mary journeyed to the office .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "John went back to the bathroom . John got the apple there .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "John went back to the bathroom . John got the apple there . John went to the hallway . Sandra took the football there .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "John went back to the bathroom . John got the apple there . John went to the hallway . Sandra took the football there . John went to the kitchen . Mary got the milk there .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "John journeyed to the bedroom .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Sandra dropped the football .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Daniel went back to the hallway . Sandra moved to the hallway .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Daniel went back to the hallway . Sandra moved to the hallway . Daniel moved to the kitchen . Daniel went to the hallway .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel went back to the hallway . Sandra moved to the hallway . Daniel moved to the kitchen . Daniel went to the hallway . John moved to the kitchen . Sandra travelled to the bedroom .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel picked up the milk there .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "John went back to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Daniel travelled to the kitchen . Daniel travelled to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Daniel travelled to the kitchen . Daniel travelled to the bathroom . Mary went to the hallway . Mary moved to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Daniel travelled to the kitchen . Daniel travelled to the bathroom . Mary went to the hallway . Mary moved to the office . Mary went to the garden . John travelled to the bedroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Sandra moved to the bedroom .", "question": "Is John in the office ?", "label": false}
+{"passage": "John went back to the office .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "John got the football there . Mary went to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "John got the football there . Mary went to the bathroom . John journeyed to the kitchen . Mary went back to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "John got the football there . Mary went to the bathroom . John journeyed to the kitchen . Mary went back to the office . Mary grabbed the apple there . Sandra journeyed to the bathroom .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Daniel went back to the office .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "John dropped the football .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Mary went back to the garden . Sandra went back to the kitchen .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary went back to the garden . Sandra went back to the kitchen . Sandra picked up the apple there . Sandra put down the apple .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary went back to the garden . Sandra went back to the kitchen . Sandra picked up the apple there . Sandra put down the apple . Sandra picked up the apple there . Sandra took the milk there .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "John travelled to the garden .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Mary went back to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary travelled to the office . Mary went to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Mary travelled to the office . Mary went to the bedroom . John went back to the garden . Sandra moved to the garden .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Mary travelled to the office . Mary went to the bedroom . John went back to the garden . Sandra moved to the garden . Sandra went to the kitchen . Mary grabbed the football there .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Mary travelled to the garden .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Daniel moved to the office .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Sandra took the football there . Sandra dropped the football . Daniel got the football there . Mary grabbed the apple there . Daniel journeyed to the hallway . Mary left the apple there .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Sandra took the football there . Sandra dropped the football . Daniel got the football there . Mary grabbed the apple there . Daniel journeyed to the hallway . Mary left the apple there . Daniel dropped the football . John journeyed to the bathroom .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Daniel journeyed to the bathroom .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "John journeyed to the bedroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the hallway .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Mary moved to the bathroom . John journeyed to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Mary moved to the bathroom . John journeyed to the hallway . Daniel moved to the bedroom . Mary grabbed the football there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary moved to the bathroom . John journeyed to the hallway . Daniel moved to the bedroom . Mary grabbed the football there . Sandra went to the garden . Mary discarded the football there .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary dropped the football .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Sandra travelled to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the office . Mary travelled to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra went back to the office . Mary travelled to the bedroom . Mary took the apple there . Daniel went to the bedroom .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Sandra went back to the office . Mary travelled to the bedroom . Mary took the apple there . Daniel went to the bedroom . John moved to the bedroom . Daniel travelled to the hallway .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Mary moved to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Mary went back to the garden .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Sandra took the apple there . Sandra moved to the bedroom .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Sandra took the apple there . Sandra moved to the bedroom . Daniel went back to the bathroom . John grabbed the football there .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Sandra took the apple there . Sandra moved to the bedroom . Daniel went back to the bathroom . John grabbed the football there . John dropped the football . Daniel journeyed to the kitchen .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Sandra left the apple .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Mary travelled to the hallway .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel journeyed to the bathroom . John travelled to the hallway .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel journeyed to the bathroom . John travelled to the hallway . John took the apple there . Sandra travelled to the garden .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Daniel journeyed to the bathroom . John travelled to the hallway . John took the apple there . Sandra travelled to the garden . Daniel went to the kitchen . John put down the apple .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Daniel grabbed the apple there .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Daniel journeyed to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Mary took the football there . Mary discarded the football . Daniel travelled to the office . John moved to the garden .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Mary took the football there . Mary discarded the football . Daniel travelled to the office . John moved to the garden . Daniel travelled to the hallway . Mary took the football there .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel took the apple there .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Sandra moved to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Mary journeyed to the garden .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Mary went to the office . Mary moved to the hallway .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary went to the office . Mary moved to the hallway . Mary travelled to the kitchen . Daniel picked up the football there .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Mary went to the office . Mary moved to the hallway . Mary travelled to the kitchen . Daniel picked up the football there . John journeyed to the kitchen . Daniel moved to the garden .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Sandra went to the hallway .", "question": "Is John in the office ?", "label": false}
+{"passage": "Daniel dropped the football there .", "question": "Is John in the office ?", "label": true}
+{"passage": "Daniel went back to the bedroom . Sandra moved to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Daniel went back to the bedroom . Sandra moved to the hallway . Mary went back to the office . John moved to the bedroom .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Daniel went back to the bedroom . Sandra moved to the hallway . Mary went back to the office . John moved to the bedroom . Sandra went to the bedroom . Mary went to the kitchen .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Mary dropped the football .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Mary went to the garden .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "John went to the bedroom . Daniel journeyed to the bathroom .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John went to the bedroom . Daniel journeyed to the bathroom . Mary travelled to the bedroom . Mary went to the kitchen .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "John went to the bedroom . Daniel journeyed to the bathroom . Mary travelled to the bedroom . Mary went to the kitchen . John journeyed to the bathroom . John went back to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Sandra went to the kitchen .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "John went to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "Daniel went to the bathroom . Mary travelled to the bathroom .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Daniel went to the bathroom . Mary travelled to the bathroom . Mary journeyed to the kitchen . Mary went to the garden .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Daniel went to the bathroom . Mary travelled to the bathroom . Mary journeyed to the kitchen . Mary went to the garden . Mary got the football there . John moved to the bathroom .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary dropped the football .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Sandra moved to the bedroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Sandra moved to the garden . Sandra picked up the apple there .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Sandra moved to the garden . Sandra picked up the apple there . John got the football there . John dropped the football .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra moved to the garden . Sandra picked up the apple there . John got the football there . John dropped the football . Mary travelled to the bedroom . John went to the hallway .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel travelled to the garden .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra left the apple .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "John went back to the bedroom . John took the football there .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John went back to the bedroom . John took the football there . Sandra took the apple there . Mary travelled to the office .", "question": "Is John in the office ?", "label": false}
+{"passage": "John went back to the bedroom . John took the football there . Sandra took the apple there . Mary travelled to the office . Sandra dropped the apple . Mary travelled to the kitchen .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel moved to the office .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Mary picked up the apple there .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Mary went to the office . John moved to the bedroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Mary went to the office . John moved to the bedroom . Mary travelled to the bedroom . Mary went back to the hallway .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Mary went to the office . John moved to the bedroom . Mary travelled to the bedroom . Mary went back to the hallway . Mary moved to the kitchen . John moved to the garden .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Daniel took the milk there .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Mary grabbed the apple there .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel journeyed to the garden . Daniel moved to the kitchen .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Daniel journeyed to the garden . Daniel moved to the kitchen . John travelled to the kitchen . Mary journeyed to the bathroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel journeyed to the garden . Daniel moved to the kitchen . John travelled to the kitchen . Mary journeyed to the bathroom . John travelled to the hallway . Daniel went to the bedroom .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Sandra went to the bedroom .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Mary took the football there .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel picked up the apple there . Daniel journeyed to the hallway .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel picked up the apple there . Daniel journeyed to the hallway . Sandra journeyed to the bedroom . Mary picked up the milk there .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Daniel picked up the apple there . Daniel journeyed to the hallway . Sandra journeyed to the bedroom . Mary picked up the milk there . Daniel took the football there . Mary dropped the milk .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Sandra travelled to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Daniel discarded the football .", "question": "Is John in the office ?", "label": true}
+{"passage": "John got the football there . John moved to the hallway .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John got the football there . John moved to the hallway . Daniel went back to the hallway . John went to the kitchen .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John got the football there . John moved to the hallway . Daniel went back to the hallway . John went to the kitchen . Mary moved to the bedroom . Sandra went to the hallway .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Mary went to the bathroom .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "John got the football there .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Daniel picked up the apple there . Sandra picked up the milk there . Sandra went to the kitchen . Daniel left the apple .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Daniel picked up the apple there . Sandra picked up the milk there . Sandra went to the kitchen . Daniel left the apple . Mary moved to the kitchen . John journeyed to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Daniel got the apple there .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "John travelled to the garden .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "John took the football there .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "Mary went back to the bathroom . Sandra went back to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary went back to the bathroom . Sandra went back to the kitchen . John went to the garden . Daniel went back to the bathroom .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Mary went back to the bathroom . Sandra went back to the kitchen . John went to the garden . Daniel went back to the bathroom . John moved to the bathroom . Sandra journeyed to the bedroom .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra travelled to the hallway .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Sandra travelled to the office .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Daniel went back to the bathroom . Mary moved to the hallway .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Daniel went back to the bathroom . Mary moved to the hallway . Sandra journeyed to the bedroom . Mary picked up the football there .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Daniel went back to the bathroom . Mary moved to the hallway . Sandra journeyed to the bedroom . Mary picked up the football there . Daniel grabbed the apple there . Mary discarded the football .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel left the apple .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Mary went back to the kitchen .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Daniel went to the hallway . Sandra went to the kitchen .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Daniel went to the hallway . Sandra went to the kitchen . John moved to the hallway . Sandra picked up the milk there .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Daniel went to the hallway . Sandra went to the kitchen . John moved to the hallway . Sandra picked up the milk there . John got the apple there . Sandra went to the bedroom .", "question": "Is John in the office ?", "label": false}
+{"passage": "Sandra went back to the garden .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Sandra went to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Mary went back to the office . Sandra went back to the hallway .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Mary went back to the office . Sandra went back to the hallway . Sandra moved to the bathroom . Mary went to the bedroom .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary went back to the office . Sandra went back to the hallway . Sandra moved to the bathroom . Mary went to the bedroom . Daniel moved to the kitchen . John grabbed the milk there .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John travelled to the garden .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Sandra went to the office .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Daniel went back to the garden . John moved to the bedroom .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Daniel went back to the garden . John moved to the bedroom . Daniel travelled to the kitchen . Daniel journeyed to the office .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Daniel went back to the garden . John moved to the bedroom . Daniel travelled to the kitchen . Daniel journeyed to the office . Daniel went to the kitchen . Mary went to the office .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra went to the bedroom .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John travelled to the garden .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "John travelled to the office . Sandra went back to the bedroom .", "question": "Is John in the office ?", "label": true}
+{"passage": "John travelled to the office . Sandra went back to the bedroom . John took the milk there . Mary journeyed to the garden .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "John travelled to the office . Sandra went back to the bedroom . John took the milk there . Mary journeyed to the garden . Daniel travelled to the office . John left the milk .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "John discarded the milk there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "John went back to the garden .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Daniel went to the kitchen . Mary grabbed the football there .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Daniel went to the kitchen . Mary grabbed the football there . Mary took the milk there . John journeyed to the kitchen .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Daniel went to the kitchen . Mary grabbed the football there . Mary took the milk there . John journeyed to the kitchen . Daniel journeyed to the garden . Mary discarded the football .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Daniel left the football there .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John went back to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Mary travelled to the kitchen . Daniel got the apple there .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Mary travelled to the kitchen . Daniel got the apple there . Daniel discarded the apple . John moved to the office .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary travelled to the kitchen . Daniel got the apple there . Daniel discarded the apple . John moved to the office . Sandra moved to the bedroom . Sandra went to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "John went back to the garden .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Daniel took the apple there .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Daniel journeyed to the bedroom . Sandra took the milk there .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel journeyed to the bedroom . Sandra took the milk there . Daniel journeyed to the kitchen . Daniel travelled to the hallway .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel journeyed to the bedroom . Sandra took the milk there . Daniel journeyed to the kitchen . Daniel travelled to the hallway . Sandra travelled to the kitchen . John went to the garden .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Sandra put down the milk there .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "Sandra moved to the hallway .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Mary picked up the milk there . Mary discarded the milk . Sandra took the football there . John moved to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "Mary picked up the milk there . Mary discarded the milk . Sandra took the football there . John moved to the office . Daniel travelled to the kitchen . Mary grabbed the milk there .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Mary went back to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Mary moved to the hallway .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John discarded the milk there .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary grabbed the milk there . Sandra went back to the bedroom .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Mary grabbed the milk there . Sandra went back to the bedroom . Daniel went back to the garden . John got the football there .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Mary grabbed the milk there . Sandra went back to the bedroom . Daniel went back to the garden . John got the football there . Daniel went back to the kitchen . John travelled to the office .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Daniel journeyed to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "John put down the football .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Sandra picked up the milk there . Mary journeyed to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Sandra picked up the milk there . Mary journeyed to the kitchen . Sandra took the football there . John went to the office .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Sandra picked up the milk there . Mary journeyed to the kitchen . Sandra took the football there . John went to the office . Sandra dropped the football there . Sandra put down the milk there .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Sandra put down the milk .", "question": "Is John in the office ?", "label": true}
+{"passage": "Sandra went to the kitchen .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Mary went to the garden . Daniel travelled to the garden .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Mary went to the garden . Daniel travelled to the garden . Mary went to the office . Sandra journeyed to the hallway .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Mary went to the garden . Daniel travelled to the garden . Mary went to the office . Sandra journeyed to the hallway . John travelled to the hallway . Mary journeyed to the kitchen .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Mary journeyed to the bathroom .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Daniel journeyed to the office .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "John travelled to the bedroom . Mary travelled to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "John travelled to the bedroom . Mary travelled to the bathroom . John got the apple there . Daniel went to the kitchen .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John travelled to the bedroom . Mary travelled to the bathroom . John got the apple there . Daniel went to the kitchen . Mary moved to the hallway . Mary got the football there .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John put down the apple .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel travelled to the bathroom .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "John went back to the kitchen . Mary went back to the hallway .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John went back to the kitchen . Mary went back to the hallway . Mary moved to the office . Daniel went to the kitchen .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "John went back to the kitchen . Mary went back to the hallway . Mary moved to the office . Daniel went to the kitchen . John grabbed the apple there . Daniel went back to the garden .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Daniel took the milk there .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Daniel moved to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel journeyed to the garden . John got the football there .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Daniel journeyed to the garden . John got the football there . Sandra moved to the garden . John went back to the garden .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Daniel journeyed to the garden . John got the football there . Sandra moved to the garden . John went back to the garden . Daniel went to the bathroom . Sandra travelled to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Mary grabbed the apple there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Mary travelled to the hallway .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Sandra journeyed to the hallway . John journeyed to the kitchen .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Sandra journeyed to the hallway . John journeyed to the kitchen . Sandra picked up the apple there . Mary picked up the milk there .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra journeyed to the hallway . John journeyed to the kitchen . Sandra picked up the apple there . Mary picked up the milk there . Sandra went to the kitchen . Daniel went back to the hallway .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Sandra journeyed to the hallway .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra left the apple .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "John took the football there . Sandra got the milk there . Sandra put down the milk . Daniel moved to the bathroom .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "John took the football there . Sandra got the milk there . Sandra put down the milk . Daniel moved to the bathroom . Mary moved to the bathroom . Sandra journeyed to the garden .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel went to the hallway .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Sandra went back to the bathroom .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Mary travelled to the hallway .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Daniel moved to the office . Mary went back to the bathroom .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel moved to the office . Mary went back to the bathroom . Mary journeyed to the hallway . John went to the bathroom .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Daniel moved to the office . Mary went back to the bathroom . Mary journeyed to the hallway . John went to the bathroom . Daniel went to the kitchen . Sandra went to the garden .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John travelled to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "Sandra went to the garden .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Sandra took the football there . Sandra took the apple there . Mary went to the hallway . Mary journeyed to the kitchen .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Sandra took the football there . Sandra took the apple there . Mary went to the hallway . Mary journeyed to the kitchen . John moved to the office . Sandra travelled to the bathroom .", "question": "Is John in the office ?", "label": true}
+{"passage": "John got the milk there .", "question": "Is Sandra in the kitchen ?", "label": false}
+{"passage": "Sandra put down the football .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "John dropped the milk there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Daniel journeyed to the garden . Sandra moved to the bedroom .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Daniel journeyed to the garden . Sandra moved to the bedroom . Sandra travelled to the kitchen . Mary moved to the garden .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Daniel journeyed to the garden . Sandra moved to the bedroom . Sandra travelled to the kitchen . Mary moved to the garden . Sandra travelled to the office . Daniel travelled to the bedroom .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra got the apple there .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "Daniel travelled to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Daniel journeyed to the kitchen . Daniel moved to the hallway .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel journeyed to the kitchen . Daniel moved to the hallway . Daniel journeyed to the kitchen . Mary went back to the kitchen .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel journeyed to the kitchen . Daniel moved to the hallway . Daniel journeyed to the kitchen . Mary went back to the kitchen . Daniel took the milk there . Daniel journeyed to the office .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel travelled to the hallway .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel journeyed to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Sandra went back to the hallway . Daniel got the football there .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra went back to the hallway . Daniel got the football there . Sandra moved to the garden . Sandra went to the bathroom .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra went back to the hallway . Daniel got the football there . Sandra moved to the garden . Sandra went to the bathroom . Sandra grabbed the milk there . Mary travelled to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Daniel left the football there .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "John picked up the football there .", "question": "Is Mary in the bedroom ?", "label": false}
+{"passage": "Daniel went to the bathroom . Sandra got the milk there .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "Daniel went to the bathroom . Sandra got the milk there . Daniel went to the kitchen . Mary grabbed the apple there .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Daniel went to the bathroom . Sandra got the milk there . Daniel went to the kitchen . Mary grabbed the apple there . John travelled to the bedroom . Daniel went to the garden .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Sandra moved to the garden .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Daniel picked up the football there .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary went back to the bedroom . Daniel took the football there .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Mary went back to the bedroom . Daniel took the football there . John journeyed to the bathroom . John took the milk there .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Mary went back to the bedroom . Daniel took the football there . John journeyed to the bathroom . John took the milk there . Daniel discarded the football . Mary journeyed to the hallway .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "Daniel went to the garden .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Sandra went to the hallway .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John went back to the office . John went to the bedroom .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John went back to the office . John went to the bedroom . Mary went to the office . John went to the hallway .", "question": "Is John in the office ?", "label": false}
+{"passage": "John went back to the office . John went to the bedroom . Mary went to the office . John went to the hallway . John went to the garden . Daniel moved to the hallway .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "John went back to the bedroom .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel journeyed to the garden .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Sandra moved to the office . Sandra got the apple there .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "Sandra moved to the office . Sandra got the apple there . Sandra travelled to the kitchen . John went back to the bedroom .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Sandra moved to the office . Sandra got the apple there . Sandra travelled to the kitchen . John went back to the bedroom . Sandra travelled to the bedroom . Daniel journeyed to the bedroom .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "John took the apple there .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "John went to the hallway .", "question": "Is John in the office ?", "label": false}
+{"passage": "John moved to the bedroom . Daniel grabbed the apple there .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John moved to the bedroom . Daniel grabbed the apple there . Daniel travelled to the hallway . Sandra went to the hallway .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "John moved to the bedroom . Daniel grabbed the apple there . Daniel travelled to the hallway . Sandra went to the hallway . Mary went back to the kitchen . John went back to the kitchen .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Daniel grabbed the apple there .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Daniel travelled to the office .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "John moved to the hallway . Sandra journeyed to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "John moved to the hallway . Sandra journeyed to the bathroom . John journeyed to the kitchen . Sandra grabbed the milk there .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John moved to the hallway . Sandra journeyed to the bathroom . John journeyed to the kitchen . Sandra grabbed the milk there . Daniel went to the hallway . Sandra went to the kitchen .", "question": "Is John in the office ?", "label": false}
+{"passage": "Mary journeyed to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "John discarded the milk there .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary journeyed to the bedroom . John went to the kitchen .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary journeyed to the bedroom . John went to the kitchen . Daniel went to the bathroom . Daniel moved to the kitchen .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Mary journeyed to the bedroom . John went to the kitchen . Daniel went to the bathroom . Daniel moved to the kitchen . Sandra moved to the kitchen . Sandra went back to the garden .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John went back to the bathroom .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Mary picked up the milk there .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Sandra travelled to the hallway . Sandra went to the kitchen .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Sandra travelled to the hallway . Sandra went to the kitchen . Mary journeyed to the hallway . Sandra took the milk there .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Sandra travelled to the hallway . Sandra went to the kitchen . Mary journeyed to the hallway . Sandra took the milk there . John grabbed the apple there . John dropped the apple .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Mary went to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "John picked up the apple there .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John took the apple there . John discarded the apple . Sandra went to the bedroom . John grabbed the apple there .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "John took the apple there . John discarded the apple . Sandra went to the bedroom . John grabbed the apple there . John left the apple there . Mary went back to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John went back to the office .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Daniel moved to the bedroom .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "Mary grabbed the football there .", "question": "Is John in the bedroom ?", "label": false}
+{"passage": "John moved to the bedroom . Daniel moved to the bedroom .", "question": "Is John in the office ?", "label": false}
+{"passage": "John moved to the bedroom . Daniel moved to the bedroom . Sandra journeyed to the kitchen . Sandra went to the bedroom .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John moved to the bedroom . Daniel moved to the bedroom . Sandra journeyed to the kitchen . Sandra went to the bedroom . Mary went back to the bedroom . Daniel grabbed the milk there .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel journeyed to the garden .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary journeyed to the bathroom .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "John moved to the office . Daniel picked up the milk there .", "question": "Is John in the office ?", "label": true}
+{"passage": "John moved to the office . Daniel picked up the milk there . John went to the bathroom . Sandra took the apple there .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John moved to the office . Daniel picked up the milk there . John went to the bathroom . Sandra took the apple there . John journeyed to the kitchen . Sandra journeyed to the bathroom .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Daniel journeyed to the kitchen .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra went back to the office .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Sandra moved to the office . Sandra picked up the football there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra moved to the office . Sandra picked up the football there . John went to the kitchen . Mary journeyed to the garden .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "Sandra moved to the office . Sandra picked up the football there . John went to the kitchen . Mary journeyed to the garden . John moved to the bathroom . John moved to the office .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "Mary picked up the milk there .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Sandra went to the bedroom .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Mary moved to the bedroom . John went back to the hallway .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary moved to the bedroom . John went back to the hallway . Daniel journeyed to the bathroom . Mary went to the garden .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Mary moved to the bedroom . John went back to the hallway . Daniel journeyed to the bathroom . Mary went to the garden . Mary went back to the hallway . Mary journeyed to the kitchen .", "question": "Is Mary in the kitchen ?", "label": true}
+{"passage": "Sandra journeyed to the garden .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary went to the kitchen .", "question": "Is Sandra in the garden ?", "label": true}
+{"passage": "Sandra went back to the kitchen . Sandra journeyed to the office .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra went back to the kitchen . Sandra journeyed to the office . Sandra moved to the hallway . John moved to the office .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Sandra went back to the kitchen . Sandra journeyed to the office . Sandra moved to the hallway . John moved to the office . John travelled to the garden . Sandra moved to the office .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John took the milk there .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "John went back to the kitchen .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John went to the garden . Sandra journeyed to the bedroom .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John went to the garden . Sandra journeyed to the bedroom . Mary moved to the bathroom . Daniel went to the garden .", "question": "Is John in the garden ?", "label": true}
+{"passage": "John went to the garden . Sandra journeyed to the bedroom . Mary moved to the bathroom . Daniel went to the garden . Mary travelled to the hallway . Sandra went back to the office .", "question": "Is Mary in the bathroom ?", "label": false}
+{"passage": "Mary grabbed the apple there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary grabbed the apple there .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John went to the bathroom . Daniel went back to the office .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "John went to the bathroom . Daniel went back to the office . Daniel picked up the milk there . John moved to the office .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John went to the bathroom . Daniel went back to the office . Daniel picked up the milk there . John moved to the office . John went back to the bedroom . Daniel journeyed to the bathroom .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Sandra travelled to the kitchen .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "Sandra moved to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Daniel went back to the bathroom . John travelled to the hallway .", "question": "Is John in the hallway ?", "label": true}
+{"passage": "Daniel went back to the bathroom . John travelled to the hallway . Sandra went back to the bathroom . John took the apple there .", "question": "Is Daniel in the bedroom ?", "label": false}
+{"passage": "Daniel went back to the bathroom . John travelled to the hallway . Sandra went back to the bathroom . John took the apple there . Mary picked up the milk there . Sandra picked up the football there .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Daniel went to the kitchen .", "question": "Is Daniel in the bathroom ?", "label": false}
+{"passage": "John discarded the apple .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "Daniel travelled to the bedroom . John got the milk there .", "question": "Is Daniel in the bedroom ?", "label": true}
+{"passage": "Daniel travelled to the bedroom . John got the milk there . John discarded the milk . Mary travelled to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Daniel travelled to the bedroom . John got the milk there . John discarded the milk . Mary travelled to the office . Daniel travelled to the hallway . Mary went back to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Daniel travelled to the garden .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary went back to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "John went back to the hallway . Sandra went to the kitchen .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "John went back to the hallway . Sandra went to the kitchen . John grabbed the football there . John put down the football there .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "John went back to the hallway . Sandra went to the kitchen . John grabbed the football there . John put down the football there . Mary journeyed to the hallway . Daniel went to the bedroom .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary journeyed to the bathroom .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "John went to the kitchen .", "question": "Is John in the garden ?", "label": false}
+{"passage": "John journeyed to the kitchen . Sandra grabbed the milk there .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John journeyed to the kitchen . Sandra grabbed the milk there . Mary journeyed to the hallway . Sandra left the milk .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "John journeyed to the kitchen . Sandra grabbed the milk there . Mary journeyed to the hallway . Sandra left the milk . Daniel went back to the hallway . Mary went back to the bathroom .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Sandra picked up the milk there .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Mary moved to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Daniel got the football there . Mary got the milk there . Mary put down the milk there . Mary moved to the bathroom .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Daniel got the football there . Mary got the milk there . Mary put down the milk there . Mary moved to the bathroom . Daniel journeyed to the office . Mary went back to the office .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Sandra journeyed to the hallway .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Sandra journeyed to the kitchen .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra took the apple there .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "Sandra picked up the football there . Sandra grabbed the milk there . Daniel went back to the bathroom . Mary moved to the bathroom .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Sandra picked up the football there . Sandra grabbed the milk there . Daniel went back to the bathroom . Mary moved to the bathroom . Sandra went to the kitchen . Sandra went back to the bathroom .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "John travelled to the bedroom .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "John went to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Sandra moved to the bathroom .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Sandra travelled to the kitchen . John took the apple there .", "question": "Is Sandra in the hallway ?", "label": false}
+{"passage": "Sandra travelled to the kitchen . John took the apple there . Daniel went to the kitchen . Mary went to the hallway .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Sandra travelled to the kitchen . John took the apple there . Daniel went to the kitchen . Mary went to the hallway . Mary went to the garden . Sandra went back to the garden .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "John grabbed the football there .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John dropped the apple there .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary travelled to the garden . Sandra took the milk there .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "Mary travelled to the garden . Sandra took the milk there . John moved to the hallway . Sandra discarded the milk there .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Mary travelled to the garden . Sandra took the milk there . John moved to the hallway . Sandra discarded the milk there . Sandra moved to the garden . Daniel moved to the hallway .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Mary went back to the bathroom .", "question": "Is Sandra in the bedroom ?", "label": false}
+{"passage": "Mary travelled to the kitchen .", "question": "Is Sandra in the garden ?", "label": false}
+{"passage": "Sandra travelled to the bedroom . Mary travelled to the office .", "question": "Is Sandra in the bedroom ?", "label": true}
+{"passage": "Sandra travelled to the bedroom . Mary travelled to the office . Mary moved to the bedroom . Daniel travelled to the office .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "Sandra travelled to the bedroom . Mary travelled to the office . Mary moved to the bedroom . Daniel travelled to the office . Sandra grabbed the apple there . John journeyed to the bathroom .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "John moved to the office .", "question": "Is John in the office ?", "label": true}
+{"passage": "Daniel travelled to the bathroom .", "question": "Is Daniel in the bathroom ?", "label": true}
+{"passage": "John went back to the bedroom . Daniel grabbed the milk there .", "question": "Is John in the bathroom ?", "label": false}
+{"passage": "John went back to the bedroom . Daniel grabbed the milk there . John journeyed to the bathroom . Mary went to the garden .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "John went back to the bedroom . Daniel grabbed the milk there . John journeyed to the bathroom . Mary went to the garden . Daniel dropped the milk . Sandra went to the bathroom .", "question": "Is Sandra in the bathroom ?", "label": true}
+{"passage": "Daniel went to the office .", "question": "Is Mary in the garden ?", "label": true}
+{"passage": "John took the football there .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "John travelled to the kitchen . Mary went to the hallway .", "question": "Is John in the kitchen ?", "label": true}
+{"passage": "John travelled to the kitchen . Mary went to the hallway . Daniel went to the bathroom . Daniel went back to the garden .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "John travelled to the kitchen . Mary went to the hallway . Daniel went to the bathroom . Daniel went back to the garden . Mary took the milk there . John journeyed to the bedroom .", "question": "Is Daniel in the garden ?", "label": true}
+{"passage": "Mary dropped the milk .", "question": "Is John in the bedroom ?", "label": true}
+{"passage": "Sandra grabbed the milk there .", "question": "Is Sandra in the bathroom ?", "label": false}
+{"passage": "John went to the bathroom . John grabbed the apple there .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "John went to the bathroom . John grabbed the apple there . John got the football there . Mary went to the bedroom .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John went to the bathroom . John grabbed the apple there . John got the football there . Mary went to the bedroom . Sandra travelled to the office . Sandra travelled to the kitchen .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John dropped the football .", "question": "Is Mary in the bedroom ?", "label": true}
+{"passage": "John discarded the apple .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Daniel journeyed to the kitchen . Daniel moved to the hallway .", "question": "Is Daniel in the hallway ?", "label": true}
+{"passage": "Daniel journeyed to the kitchen . Daniel moved to the hallway . Daniel travelled to the garden . Daniel went to the office .", "question": "Is Daniel in the office ?", "label": true}
+{"passage": "Daniel journeyed to the kitchen . Daniel moved to the hallway . Daniel travelled to the garden . Daniel went to the office . Daniel travelled to the kitchen . Sandra went to the kitchen .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Mary travelled to the bedroom .", "question": "Is Daniel in the kitchen ?", "label": true}
+{"passage": "John went back to the garden .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Daniel took the milk there . Mary went to the office .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Daniel took the milk there . Mary went to the office . John went to the office . John went to the garden .", "question": "Is John in the kitchen ?", "label": false}
+{"passage": "Daniel took the milk there . Mary went to the office . John went to the office . John went to the garden . Mary went back to the bedroom . Mary went to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Sandra journeyed to the bedroom .", "question": "Is John in the garden ?", "label": true}
+{"passage": "Mary went to the hallway .", "question": "Is Mary in the hallway ?", "label": true}
+{"passage": "Mary went back to the office . Mary got the milk there .", "question": "Is Mary in the garden ?", "label": false}
+{"passage": "Mary went back to the office . Mary got the milk there . Daniel grabbed the apple there . Daniel journeyed to the kitchen .", "question": "Is Mary in the office ?", "label": true}
+{"passage": "Mary went back to the office . Mary got the milk there . Daniel grabbed the apple there . Daniel journeyed to the kitchen . Mary travelled to the garden . Mary travelled to the bedroom .", "question": "Is Mary in the kitchen ?", "label": false}
+{"passage": "Mary left the milk there .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "John journeyed to the bedroom .", "question": "Is John in the office ?", "label": false}
+{"passage": "Daniel journeyed to the office . Daniel picked up the football there .", "question": "Is Daniel in the kitchen ?", "label": false}
+{"passage": "Daniel journeyed to the office . Daniel picked up the football there . Daniel put down the football . Daniel travelled to the bathroom .", "question": "Is Daniel in the garden ?", "label": false}
+{"passage": "Daniel journeyed to the office . Daniel picked up the football there . Daniel put down the football . Daniel travelled to the bathroom . John took the milk there . John went to the office .", "question": "Is John in the hallway ?", "label": false}
+{"passage": "John discarded the milk .", "question": "Is John in the garden ?", "label": false}
+{"passage": "Mary went back to the bathroom .", "question": "Is Daniel in the hallway ?", "label": false}
+{"passage": "John went to the garden . Sandra journeyed to the kitchen .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "John went to the garden . Sandra journeyed to the kitchen . John grabbed the apple there . Daniel moved to the garden .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "John went to the garden . Sandra journeyed to the kitchen . John grabbed the apple there . Daniel moved to the garden . Sandra moved to the hallway . Sandra journeyed to the bedroom .", "question": "Is Daniel in the office ?", "label": false}
+{"passage": "John left the apple .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "Daniel picked up the football there .", "question": "Is Sandra in the hallway ?", "label": true}
+{"passage": "John went to the hallway . John travelled to the bathroom .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "John went to the hallway . John travelled to the bathroom . Mary went back to the hallway . John took the football there .", "question": "Is John in the bathroom ?", "label": true}
+{"passage": "John went to the hallway . John travelled to the bathroom . Mary went back to the hallway . John took the football there . Sandra moved to the bathroom . John dropped the football .", "question": "Is John in the office ?", "label": false}
+{"passage": "John went back to the kitchen .", "question": "Is Sandra in the office ?", "label": false}
+{"passage": "John journeyed to the hallway .", "question": "Is Sandra in the kitchen ?", "label": true}
+{"passage": "Mary went to the bathroom . John took the milk there .", "question": "Is Mary in the hallway ?", "label": false}
+{"passage": "Mary went to the bathroom . John took the milk there . Sandra moved to the office . John dropped the milk .", "question": "Is Mary in the bathroom ?", "label": true}
+{"passage": "Mary went to the bathroom . John took the milk there . Sandra moved to the office . John dropped the milk . Mary went to the office . Daniel journeyed to the bathroom .", "question": "Is Sandra in the office ?", "label": true}
+{"passage": "Sandra went to the bathroom .", "question": "Is Mary in the office ?", "label": false}
+{"passage": "Daniel picked up the apple there .", "question": "Is Sandra in the hallway ?", "label": false}
