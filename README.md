@@ -231,3 +231,23 @@ Results :
 ```bash
 python Rationale_Analysis/supervised_rationale_plot.py --output-dir outputs/ --dataset $DATASET_NAME --min-scale 0.0 --max-scale 1.0;
 ```
+
+If you are using this code, please cite the following
+
+```
+@inproceedings{jain-etal-2020-learning,
+    title = "{L}earning to Faithfully Rationalize by Construction",
+    author = "Jain, Sarthak  and
+      Wiegreffe, Sarah  and
+      Pinter, Yuval  and
+      Wallace, Byron C.",
+    booktitle = "Proceedings of the 58th Annual Meeting of the Association for Computational Linguistics",
+    month = jul,
+    year = "2020",
+    address = "Online",
+    publisher = "Association for Computational Linguistics",
+    url = "https://aclanthology.org/2020.acl-main.409",
+    doi = "10.18653/v1/2020.acl-main.409",
+    pages = "4459--4473",
+}
+```
